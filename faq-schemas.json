@@ -1,0 +1,439 @@
+{
+  "_meta": {
+    "project": "Llantero Movil Culiacan Pro",
+    "domain": "llanteromoviculiacanpro.com",
+    "lastUpdated": "2026-02-10",
+    "description": "FAQs organizadas por pagina para schemas JSON-LD FAQPage. Incluye keywords Tier 1, 2 y 3 integradas naturalmente.",
+    "keywordTiers": {
+      "tier1": ["llantera movil", "llantera movil cerca de mi", "llantera movil 24 horas cerca de mi ubicacion", "llantera a domicilio"],
+      "tier2": ["llantera a domicilio cerca de mi", "llantera a domicilio cerca de mi ubicacion", "llantera 24 horas a domicilio", "llantera movil a domicilio", "servicio de llantera movil", "numero de llantera movil", "llanteras moviles cerca de mi"],
+      "tier3": ["llantera movil near me", "llantera movil 24 7", "llantera mobil", "llantera express", "llantera cerca de mi a domicilio", "llantera cerca de mi movil", "llantera 24 horas movil"],
+      "geo": ["llantera movil bugambilias", "llantera movil centro"]
+    }
+  },
+  "pages": {
+    "home": {
+      "url": "https://llanteromoviculiacanpro.com/",
+      "faqs": [
+        {
+          "question": "Que es una llantera movil y como funciona?",
+          "answer": "Una llantera movil es un servicio profesional de reparacion y cambio de llantas que va a tu ubicacion. En lugar de llevar tu vehiculo a una llantera fija, nuestra llantera movil llega a donde te encuentres con todo el equipo necesario: compresor, desmontadora, herramientas de vulcanizado, parches y stock de llantas. Ofrecemos servicio de llantera a domicilio las 24 horas en Culiacan."
+        },
+        {
+          "question": "Que servicios ofrece Llantero Movil Culiacan Pro como llantera a domicilio?",
+          "answer": "Ofrecemos servicio completo de llantera movil a domicilio: cambio de llantas, reparacion de ponchaduras, vulcanizado, alineacion y balanceo, venta de llantas nuevas y seminuevas, y auxilio vial de emergencia. Nuestra llantera a domicilio opera las 24 horas del dia, los 365 dias del ano en toda la zona de Culiacan."
+        },
+        {
+          "question": "En cuanto tiempo llega la llantera movil a mi ubicacion?",
+          "answer": "Nuestra llantera movil tiene un tiempo promedio de llegada de 30 minutos dentro de la zona urbana de Culiacan. En zonas mas alejadas o carreteras cercanas, el tiempo puede ser de 30 a 45 minutos. Somos la llantera movil mas rapida de Culiacan."
+        },
+        {
+          "question": "La llantera movil trabaja las 24 horas y dias festivos?",
+          "answer": "Si, nuestro servicio de llantera movil esta disponible las 24 horas del dia, los 7 dias de la semana, incluyendo dias festivos, fines de semana, Navidad y Ano Nuevo. Siempre tenemos un equipo de llantera movil listo para atenderte de dia o de noche."
+        },
+        {
+          "question": "Que formas de pago acepta la llantera movil?",
+          "answer": "Nuestra llantera movil acepta efectivo, tarjeta de debito, tarjeta de credito, transferencia bancaria y pago por aplicacion (CoDi). Tambien ofrecemos facturacion electronica (CFDI) para empresas que requieran servicio de llantera a domicilio."
+        },
+        {
+          "question": "Cual es el numero de la llantera movil para emergencias?",
+          "answer": "Puedes contactar nuestra llantera movil por WhatsApp para respuesta inmediata (el numero esta en la parte superior de esta pagina), por llamada telefonica directa, o a traves del formulario web. El canal mas rapido es WhatsApp donde respondemos en menos de 2 minutos. Te recomendamos guardar el numero de llantera movil en tus contactos para emergencias."
+        },
+        {
+          "question": "Que colonias de Culiacan cubre la llantera movil?",
+          "answer": "Nuestra llantera movil cubre toda la zona urbana de Culiacan incluyendo Centro, Las Quintas, Tres Rios, Chapultepec, Montebello, Guadalupe, Zona Dorada, Campestre, Santa Fe, Las Palmas, Villa Universidad, Bachigualato, Bugambilias, Lomas del Boulevard, Real del Valle, Humaya, Isla del Oeste y todas las colonias circundantes."
+        },
+        {
+          "question": "La llantera movil atiende vehiculos de todas las marcas?",
+          "answer": "Si, nuestra llantera movil atiende todas las marcas y modelos de vehiculos: autos compactos, sedanes, SUVs, camionetas, pickups y vehiculos comerciales ligeros. El servicio de llantera a domicilio incluye herramientas y equipo para todo tipo de rines y llantas."
+        },
+        {
+          "question": "Tambien se le conoce como llantera mobil o llantera express?",
+          "answer": "Si, nuestro servicio de llantera movil tambien es conocido como llantera mobil, llantera express o vulcanizadora movil. Sin importar como nos busques, ofrecemos el mismo servicio profesional de llantera a domicilio con llegada rapida en 30 minutos a cualquier punto de Culiacan."
+        },
+        {
+          "question": "Tienen garantia en los servicios de la llantera movil?",
+          "answer": "Si, todos los servicios de nuestra llantera movil tienen garantia. Las reparaciones de ponchaduras tienen garantia de 6 meses, las llantas nuevas incluyen la garantia del fabricante, y la alineacion y balanceo tiene garantia de 3 meses o 5,000 km."
+        }
+      ]
+    },
+    "cambio-de-llanta": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/cambio-de-llanta/",
+      "faqs": [
+        {
+          "question": "Cuanto cuesta el cambio de llanta a domicilio en Culiacan?",
+          "answer": "El servicio de cambio de llanta a domicilio de nuestra llantera movil tiene un costo desde $200 MXN por la mano de obra. El precio final depende del tipo de vehiculo y si se requiere llanta nueva. Ofrecemos cotizacion sin compromiso por WhatsApp."
+        },
+        {
+          "question": "Cuanto tiempo tarda la llantera movil en cambiar una llanta?",
+          "answer": "Nuestra llantera movil realiza el cambio de una llanta en aproximadamente 15 a 20 minutos una vez que llegamos a tu ubicacion. Si se requiere cambiar las 4 llantas, el servicio de llantera a domicilio toma de 45 minutos a 1 hora."
+        },
+        {
+          "question": "Puedo comprar la llanta directamente con la llantera movil?",
+          "answer": "Si, nuestra llantera movil maneja llantas nuevas y seminuevas de las mejores marcas en todas las medidas. Te llevamos la llanta a tu ubicacion e incluimos la instalacion. Tambien podemos instalar llantas que ya tengas con nuestro servicio de llantera a domicilio."
+        },
+        {
+          "question": "La llantera movil hace cambio de llanta en carretera?",
+          "answer": "Si, nuestra llantera movil ofrece servicio de cambio de llanta en carreteras cercanas a Culiacan, incluyendo la salida a Mazatlan, Los Mochis y Navolato. El tiempo de llegada de la llantera a domicilio en carretera es de 30 a 45 minutos."
+        },
+        {
+          "question": "Incluyen alineacion y balanceo con el cambio de llantas?",
+          "answer": "La alineacion y balanceo se cotiza por separado pero la llantera movil ofrece paquetes con descuento cuando se combinan con el cambio de llantas. Te recomendamos hacer balanceo con cada cambio de llanta para mayor durabilidad."
+        },
+        {
+          "question": "Que pasa si no se que medida de llanta necesito?",
+          "answer": "No te preocupes. Puedes enviarnos una foto de tu llanta actual por WhatsApp al numero de la llantera movil, o decirnos la marca, modelo y ano de tu vehiculo, y nosotros identificamos la medida correcta antes de ir a tu ubicacion."
+        },
+        {
+          "question": "La llantera movil cambia la llanta de refaccion?",
+          "answer": "Si, nuestra llantera movil puede colocar tu llanta de refaccion como solucion temporal y luego ofrecerte el cambio de llanta definitiva con servicio de llantera a domicilio. Tambien vendemos llantas de refaccion."
+        },
+        {
+          "question": "El servicio de llantera movil atiende cambios de llanta por la noche?",
+          "answer": "Si, nuestra llantera movil esta disponible las 24 horas para cambio de llanta, incluyendo madrugada y noches. El precio del servicio de llantera a domicilio nocturno (10pm a 6am) puede tener un cargo adicional de $100 a $150 MXN."
+        }
+      ]
+    },
+    "reparacion-de-ponchadura": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/reparacion-de-ponchadura/",
+      "faqs": [
+        {
+          "question": "Cuanto cuesta reparar una ponchadura con la llantera movil?",
+          "answer": "La reparacion de ponchadura con nuestra llantera movil tiene un costo desde $150 MXN. El precio puede variar dependiendo del tamano y ubicacion del dano. El servicio de llantera a domicilio incluye parche interior permanente con garantia de 6 meses."
+        },
+        {
+          "question": "Cuanto tiempo tarda la llantera movil en reparar una ponchadura?",
+          "answer": "Nuestra llantera movil repara una ponchadura en aproximadamente 15 a 25 minutos, incluyendo desmontaje, reparacion con parche interior, montaje e inflado. Usamos parches profesionales que garantizan una reparacion duradera."
+        },
+        {
+          "question": "Es mejor parchar o vulcanizar una llanta ponchada?",
+          "answer": "Depende del tipo de dano. Para perforaciones menores de 6mm en la banda de rodamiento, el parche interior es la mejor opcion. Para danos mayores o en la pared lateral, nuestra llantera movil recomienda vulcanizado o reemplazo de la llanta. Evaluamos y te recomendamos la mejor solucion."
+        },
+        {
+          "question": "Se puede reparar una llanta que ya tiene varios parches?",
+          "answer": "Una llanta puede tener hasta 3 reparaciones siempre que esten en la banda de rodamiento y separadas entre si. Si la llanta tiene muchos parches o dano en la pared lateral, nuestra llantera movil te recomendara cambiarla por seguridad."
+        },
+        {
+          "question": "La llantera movil repara ponchaduras por clavos y tornillos?",
+          "answer": "Si, nuestra llantera movil repara ponchaduras causadas por clavos, tornillos, alambres, vidrios y otros objetos punzantes. Con el servicio de llantera a domicilio, retiramos el objeto, evaluamos el dano interior y aplicamos parche de alta resistencia."
+        },
+        {
+          "question": "Pueden reparar una llanta que pierde aire lentamente?",
+          "answer": "Si, las fugas lentas de aire son muy comunes. Nuestra llantera movil diagnostica la causa exacta (clavo pequeno, deterioro del rin o problemas de valvula) y realiza la reparacion en tu ubicacion con nuestro servicio de llantera a domicilio."
+        },
+        {
+          "question": "La llantera movil va a estacionamientos y centros comerciales?",
+          "answer": "Si, nuestra llantera movil va a cualquier ubicacion: estacionamientos, centros comerciales, oficinas, escuelas, carreteras o tu domicilio. Solo necesitamos acceso al vehiculo y espacio suficiente para trabajar. Es la ventaja del servicio de llantera a domicilio."
+        },
+        {
+          "question": "La reparacion de ponchadura de la llantera movil tiene garantia?",
+          "answer": "Si, todas las reparaciones de ponchadura de nuestra llantera movil tienen garantia de 6 meses. Si el parche falla dentro del periodo de garantia, lo reparamos sin costo adicional. Usamos materiales profesionales certificados."
+        }
+      ]
+    },
+    "vulcanizadora-movil": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/vulcanizadora-movil/",
+      "faqs": [
+        {
+          "question": "Que es una vulcanizadora movil y en que se diferencia de una llantera movil?",
+          "answer": "Una vulcanizadora movil se especializa en reparaciones con calor y presion (vulcanizado), mientras que una llantera movil ofrece todos los servicios de llantas incluyendo vulcanizado. Nuestro servicio combina ambos: somos llantera movil con capacidad de vulcanizado a domicilio."
+        },
+        {
+          "question": "Cual es la diferencia entre vulcanizado y parche?",
+          "answer": "El parche se aplica desde el interior de la llanta para sellar perforaciones pequenas. El vulcanizado usa calor y presion para fusionar caucho con la llanta, ideal para danos mayores. Nuestra llantera movil ofrece ambos servicios a domicilio y te recomienda la mejor opcion."
+        },
+        {
+          "question": "Cuanto cuesta el servicio de vulcanizadora movil en Culiacan?",
+          "answer": "El servicio de vulcanizado de nuestra llantera movil tiene un costo desde $180 MXN dependiendo del tipo y tamano del dano. El diagnostico es gratuito y te damos el precio exacto antes de realizar cualquier trabajo de llantera a domicilio."
+        },
+        {
+          "question": "La llantera movil puede vulcanizar cualquier tipo de llanta?",
+          "answer": "Nuestra llantera movil repara llantas de auto, camioneta, SUV y vehiculos comerciales ligeros. Trabajamos con llantas convencionales y run-flat. Para llantas de camion o maquinaria pesada, consulta disponibilidad de nuestro servicio de llantera a domicilio."
+        },
+        {
+          "question": "Cuanto tiempo tarda el vulcanizado de la llantera movil?",
+          "answer": "El proceso de vulcanizado de nuestra llantera movil toma entre 20 y 40 minutos dependiendo del tipo de dano. Incluye desmontaje, preparacion de la superficie, aplicacion del vulcanizado, montaje y verificacion de presion, todo en tu ubicacion."
+        },
+        {
+          "question": "Es seguro el vulcanizado de la llantera movil?",
+          "answer": "Si, el vulcanizado profesional de nuestra llantera movil es completamente seguro. Utilizamos materiales certificados y seguimos los estandares de la industria. Si el dano no se puede reparar de forma segura, nuestra llantera a domicilio te recomendara cambiar la llanta."
+        },
+        {
+          "question": "La vulcanizadora movil trabaja de noche como llantera 24 horas?",
+          "answer": "Si, nuestro servicio de llantera movil y vulcanizadora esta disponible las 24 horas, los 7 dias de la semana. Contamos con iluminacion propia en nuestra unidad para trabajar de noche con total seguridad. Somos llantera movil 24 hrs."
+        },
+        {
+          "question": "Pueden vulcanizar una llanta en la carretera?",
+          "answer": "Si, nuestra llantera movil realiza vulcanizado en carreteras cercanas a Culiacan con medidas de seguridad (conos y chaleco reflejante). Si la reparacion no es viable en carretera, colocamos tu refaccion para que llegues seguro."
+        }
+      ]
+    },
+    "llantero-24-horas": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-24-horas/",
+      "faqs": [
+        {
+          "question": "La llantera movil de verdad atiende las 24 horas del dia?",
+          "answer": "Si, nuestra llantera movil esta disponible las 24 horas del dia, los 365 dias del ano. Nuestro servicio de llantera a domicilio atiende de dia, de noche, en madrugada, fines de semana y dias festivos sin excepcion. Somos llantera movil 24/7."
+        },
+        {
+          "question": "Hay costo extra por servicio nocturno de la llantera movil?",
+          "answer": "El servicio de llantera movil en horario nocturno (10:00 PM a 6:00 AM) tiene un cargo adicional de $100 a $200 MXN sobre el precio base. Este cargo de la llantera a domicilio 24 horas cubre el traslado y disponibilidad en horarios de menor actividad."
+        },
+        {
+          "question": "En cuanto tiempo llega la llantera movil 24 horas a mi ubicacion?",
+          "answer": "Nuestra llantera movil 24 horas cerca de tu ubicacion tiene un tiempo de llegada de 20 a 40 minutos dentro de la zona urbana de Culiacan. El trafico reducido de noche permite que la llantera a domicilio llegue incluso mas rapido que en horario diurno."
+        },
+        {
+          "question": "Que servicios de la llantera movil estan disponibles las 24 horas?",
+          "answer": "Todos nuestros servicios de llantera movil estan disponibles las 24 horas: reparacion de ponchaduras, cambio de llanta, vulcanizado, inflado de llantas, cambio de valvulas y auxilio vial. La llantera a domicilio 24 hrs cubre todas tus necesidades de llantas."
+        },
+        {
+          "question": "La llantera movil atiende en dias festivos como Navidad?",
+          "answer": "Si, nuestra llantera movil trabaja todos los dias festivos incluyendo Navidad, Ano Nuevo, Semana Santa, 16 de Septiembre y todos los demas. El servicio de llantera a domicilio 24 horas no descansa porque las emergencias con llantas no tienen horario."
+        },
+        {
+          "question": "Puedo llamar a la llantera movil a las 3 de la manana?",
+          "answer": "Por supuesto. Puedes contactar nuestra llantera movil 24 hrs por llamada o WhatsApp a cualquier hora. Nuestro equipo de guardia nocturna de llantera a domicilio esta listo para atenderte. Resolvemos la mayoria de emergencias nocturnas en menos de 45 minutos."
+        },
+        {
+          "question": "El servicio de llantera movil 24 horas cubre carreteras?",
+          "answer": "Si, nuestra llantera movil 24 horas incluye auxilio en carreteras cercanas a Culiacan. Llevamos equipo de seguridad vial (conos, luces y chalecos) para que la llantera a domicilio trabaje en carretera con total seguridad de dia y de noche."
+        },
+        {
+          "question": "Como solicito el servicio de llantera movil de madrugada?",
+          "answer": "La forma mas rapida de contactar nuestra llantera movil 24 hrs es por WhatsApp. Envia tu ubicacion en tiempo real, describe el problema con tu llanta y te confirmamos el tiempo de llegada de la llantera a domicilio en menos de 2 minutos. Tambien puedes llamar directamente al numero de llantera movil."
+        }
+      ]
+    },
+    "llantero-a-domicilio": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-a-domicilio/",
+      "faqs": [
+        {
+          "question": "Como funciona el servicio de llantera a domicilio?",
+          "answer": "Nuestro servicio de llantera a domicilio es muy sencillo: 1) Nos contactas por WhatsApp o llamada al numero de llantera movil, 2) Nos envias tu ubicacion, 3) Te confirmamos tiempo de llegada y precio, 4) Nuestra llantera movil llega con todo el equipo necesario, 5) Resolvemos el problema. Asi de facil."
+        },
+        {
+          "question": "Cuanto cuesta el servicio de llantera a domicilio?",
+          "answer": "Nuestra llantera a domicilio no cobra cargo extra por el traslado dentro de la zona urbana de Culiacan. Solo pagas el costo del servicio que necesites (parche, cambio de llanta, etc.). Para ubicaciones fuera del area urbana, la llantera movil puede cobrar un cargo de traslado."
+        },
+        {
+          "question": "Hay alguna llantera a domicilio cerca de mi ubicacion?",
+          "answer": "Si, nuestra llantera a domicilio cerca de tu ubicacion cubre todas las colonias de Culiacan. No importa donde te encuentres, nuestra llantera movil llega en un promedio de 30 minutos. Envianos tu ubicacion por WhatsApp y confirmamos disponibilidad inmediata."
+        },
+        {
+          "question": "A que domicilios puede ir la llantera movil?",
+          "answer": "Nuestra llantera a domicilio va a cualquier ubicacion en Culiacan: tu casa, oficina, estacionamiento, escuela, centro comercial, taller mecanico, o donde te encuentres. Solo necesitamos espacio suficiente y acceso al vehiculo para el servicio de llantera movil."
+        },
+        {
+          "question": "Necesito estar presente para el servicio de llantera a domicilio?",
+          "answer": "Es recomendable que estes presente o alguien de confianza cuando llegue la llantera movil. Necesitamos acceso a las llaves del vehiculo para retirar la llanta. El servicio de llantera a domicilio requiere que alguien autorice el trabajo."
+        },
+        {
+          "question": "La llantera movil atiende en estacionamientos subterraneos?",
+          "answer": "Si, nuestra llantera a domicilio atiende vehiculos en estacionamientos subterraneos siempre que haya espacio y ventilacion. La llantera movil lleva iluminacion propia. Solo necesitamos que nos permitan el acceso al estacionamiento."
+        },
+        {
+          "question": "Que equipo lleva la llantera movil a domicilio?",
+          "answer": "Nuestra llantera movil a domicilio lleva equipo completo: compresor de aire, gato hidraulico, desmontadora, herramientas de mano, parches, vulcanizadora y stock de llantas. El servicio de llantera a domicilio llega preparado para resolver cualquier problema con tus llantas."
+        },
+        {
+          "question": "Ofrecen servicio de llantera a domicilio para flotillas?",
+          "answer": "Si, nuestra llantera movil ofrece planes especiales de llantera a domicilio para empresas y flotillas vehiculares. Incluye precios preferenciales, facturacion electronica, servicio prioritario y atencion programada. Contactanos para cotizacion de servicio de llantera a domicilio empresarial."
+        },
+        {
+          "question": "La llantera a domicilio funciona 24 horas?",
+          "answer": "Si, nuestro servicio de llantera a domicilio esta disponible las 24 horas, los 7 dias de la semana. Somos una llantera a domicilio 24 horas que no descansa. Ya sea de dia, noche o madrugada, nuestra llantera movil llega a tu ubicacion."
+        }
+      ]
+    },
+    "llantero-cerca-de-mi": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-cerca-de-mi/",
+      "faqs": [
+        {
+          "question": "Como encuentro una llantera movil cerca de mi?",
+          "answer": "Ya la encontraste. Nuestra llantera movil cerca de ti cubre todas las colonias de Culiacan. Solo contactanos por WhatsApp enviando tu ubicacion y nuestra llantera movil mas cercana se dirige a ti en un promedio de 30 minutos. No necesitas buscar mas llanteras moviles cerca de ti."
+        },
+        {
+          "question": "Hay llanteras moviles cerca de mi en Bugambilias y Centro?",
+          "answer": "Si, nuestra llantera movil tiene excelente cobertura en Bugambilias, Centro y todas las colonias de Culiacan. En zonas como Bugambilias y Centro, la llantera movil cerca de ti llega en 15 a 25 minutos. Somos la llantera movil mas cercana a tu ubicacion."
+        },
+        {
+          "question": "La llantera movil cerca de mi cubre Navolato?",
+          "answer": "Si, nuestro servicio de llantera movil se extiende a Navolato y zonas circundantes. El tiempo de llegada de la llantera movil cerca de tu ubicacion en Navolato es de 30 a 45 minutos. Tambien cubrimos carreteras entre Culiacan y municipios cercanos."
+        },
+        {
+          "question": "Como sabe la llantera movil donde estoy exactamente?",
+          "answer": "Envianos tu ubicacion en tiempo real por WhatsApp y nuestra llantera movil cerca de ti usa GPS para llegar lo mas rapido posible. Tambien puedes darnos la direccion exacta o una referencia cercana. La llantera a domicilio siempre encuentra tu ubicacion."
+        },
+        {
+          "question": "En que zona la llantera movil tiene el mejor tiempo de respuesta?",
+          "answer": "La llantera movil cerca de tu ubicacion tiene mejor tiempo de respuesta en Centro, Tres Rios, Las Quintas, Chapultepec y colonias circundantes (15 a 25 minutos). En zonas como Bachigualato o Santa Fe, la llantera movil llega en 25 a 40 minutos."
+        },
+        {
+          "question": "La llantera movil va a talleres mecanicos?",
+          "answer": "Si, nuestra llantera movil cerca de ti puede ir a cualquier taller mecanico en Culiacan. Muchos talleres contactan nuestro servicio de llantera a domicilio para atender a sus clientes. Trabajamos en equipo con talleres locales."
+        },
+        {
+          "question": "Tienen local fisico o solo son llantera movil?",
+          "answer": "Nuestro modelo es 100% llantera movil, lo que nos permite ser la llantera mas cercana a tu ubicacion siempre. En lugar de que tu vengas a nosotros, nuestra llantera a domicilio va a ti. Esto elimina el traslado con una llanta danada."
+        },
+        {
+          "question": "Que hago si estoy varado y necesito una llantera movil cerca de mi?",
+          "answer": "Contactanos inmediatamente por WhatsApp o llamada. Damos prioridad a emergencias y enviamos la llantera movil mas cercana a tu ubicacion. Recuerda mantener las luces intermitentes encendidas y quedarte dentro del vehiculo si es posible. Nuestra llantera movil cerca de ti llega lo mas rapido posible."
+        },
+        {
+          "question": "Puedo buscar llantera movil near me y encontrarlos?",
+          "answer": "Si, puedes buscarnos como llantera movil near me, llantera movil cerca de mi, llanteras moviles cerca de mi, o llantera cerca de mi movil. Todos esos terminos te llevan a nosotros. Somos la llantera movil con mejor cobertura en Culiacan, disponible 24/7."
+        }
+      ]
+    },
+    "llantero-de-emergencia": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-de-emergencia/",
+      "faqs": [
+        {
+          "question": "Que se considera una emergencia para la llantera movil?",
+          "answer": "Nuestra llantera movil considera emergencia cualquier situacion donde tu llanta falla inesperadamente: ponchadura en carretera, reventon, perdida subita de presion, o cualquier situacion donde necesites asistencia inmediata de llantera a domicilio para poder moverte."
+        },
+        {
+          "question": "Cuanto tarda la llantera movil en llegar a una emergencia?",
+          "answer": "Para emergencias, nuestra llantera movil tiene un tiempo de respuesta de 20 a 30 minutos en zona urbana de Culiacan. Damos prioridad absoluta a emergencias en carretera. La llantera a domicilio responde tu WhatsApp en menos de 1 minuto."
+        },
+        {
+          "question": "La llantera movil cobra extra por servicio de emergencia?",
+          "answer": "El servicio de emergencia de la llantera movil en horario diurno no tiene costo adicional. En horario nocturno (10PM a 6AM) la llantera a domicilio 24 horas cobra un extra de $100 a $200 MXN. Emergencias en carretera fuera del area urbana pueden tener cargo de traslado."
+        },
+        {
+          "question": "Que hago si se me poncho la llanta en la autopista?",
+          "answer": "Manten la calma, enciende luces intermitentes y orillate al acotamiento derecho. Coloca el triangulo a 50 metros detras del auto. Contacta nuestra llantera movil por WhatsApp enviando tu ubicacion. Quedate dentro del vehiculo. Nuestra llantera a domicilio llega lo antes posible."
+        },
+        {
+          "question": "La llantera movil atiende emergencias con llantas run-flat?",
+          "answer": "Si, nuestra llantera movil trabaja con llantas run-flat de todas las marcas. Aunque permiten circular a baja velocidad con ponchadura, la llantera a domicilio recomienda repararlas lo antes posible. Llevamos herramientas especializadas."
+        },
+        {
+          "question": "La llantera movil ofrece auxilio vial?",
+          "answer": "Nuestra llantera movil se especializa en llantas, pero en emergencia podemos apoyar con inflado de refaccion, diagnostico basico y orientacion sobre talleres cercanos. El servicio de llantera a domicilio cubre todo lo relacionado con tus llantas."
+        },
+        {
+          "question": "Mi llanta revento, la llantera movil puede repararla?",
+          "answer": "Un reventon generalmente destruye la llanta. Nuestra llantera movil puede instalar tu refaccion o venderte una llanta nueva o seminueva en el momento. La llantera a domicilio siempre lleva stock de las medidas mas comunes para emergencias."
+        },
+        {
+          "question": "La llantera movil de emergencia tiene seguro de responsabilidad?",
+          "answer": "Si, nuestra llantera movil cuenta con seguro de responsabilidad civil que cubre cualquier eventualidad durante el servicio de llantera a domicilio. Trabajamos con profesionalismo, pero en caso de incidente, estamos respaldados."
+        }
+      ]
+    },
+    "alineacion-y-balanceo": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/alineacion-y-balanceo/",
+      "faqs": [
+        {
+          "question": "Cuanto cuesta la alineacion y balanceo de la llantera movil?",
+          "answer": "La alineacion y balanceo de nuestra llantera movil tiene precio desde $350 MXN para vehiculos compactos. Sedanes $350-$450, SUVs $400-$550, camionetas $450-$600. El servicio de llantera a domicilio incluye diagnostico computarizado."
+        },
+        {
+          "question": "Cada cuanto recomienda la llantera movil hacer alineacion y balanceo?",
+          "answer": "Nuestra llantera movil recomienda alineacion y balanceo cada 10,000 km o cada 6 meses. Tambien al cambiar llantas, despues de golpes fuertes en baches, o cuando notes vibracion en el volante. La llantera a domicilio puede evaluar si lo necesitas."
+        },
+        {
+          "question": "Como se si mi carro necesita alineacion y balanceo?",
+          "answer": "Las senales son: volante vibra a cierta velocidad, carro se jala hacia un lado, desgaste irregular de llantas, ruido inusual. Si notas alguna, contacta nuestra llantera movil para diagnostico. El servicio de llantera a domicilio incluye evaluacion completa."
+        },
+        {
+          "question": "La llantera movil hace alineacion y balanceo a domicilio?",
+          "answer": "Nuestra llantera movil puede realizar balanceo a domicilio. La alineacion requiere equipo computarizado especial. La llantera a domicilio te indica el punto de servicio mas cercano o coordina una cita donde podamos instalar el equipo completo."
+        },
+        {
+          "question": "Que incluye el servicio de alineacion y balanceo de la llantera movil?",
+          "answer": "El servicio de llantera movil incluye: diagnostico computarizado, ajuste de convergencia, camber y caster, balanceo de 4 llantas con plomo, revision de presion e inspeccion visual de suspension y direccion."
+        },
+        {
+          "question": "La alineacion y balanceo de la llantera movil mejora el rendimiento?",
+          "answer": "Si, la alineacion correcta de nuestra llantera movil reduce resistencia al rodamiento, mejorando el combustible entre 5% y 10%. Ademas, el servicio de llantera a domicilio extiende la vida de tus llantas hasta un 30%."
+        },
+        {
+          "question": "Pueden hacer solo balanceo sin alineacion con la llantera movil?",
+          "answer": "Si, la llantera movil ofrece balanceo solo (desde $200 MXN) o alineacion sola (desde $250 MXN). Sin embargo, la llantera a domicilio recomienda ambos servicios juntos para mejor resultado y mayor durabilidad."
+        },
+        {
+          "question": "Cuanto tiempo tarda la llantera movil en alinear y balancear?",
+          "answer": "El servicio completo de alineacion y balanceo de la llantera movil toma 45 minutos a 1 hora para las 4 llantas. Solo balanceo toma 30 minutos. Incluimos revision completa de presion y condicion de llantas."
+        }
+      ]
+    },
+    "venta-de-llantas": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/venta-de-llantas/",
+      "faqs": [
+        {
+          "question": "Que marcas de llantas maneja la llantera movil?",
+          "answer": "Nuestra llantera movil maneja las principales marcas: Michelin, Bridgestone, Goodyear, Continental, Pirelli, Hankook, Yokohama, Firestone, BFGoodrich, Toyo, Kumho, Nexen y marcas economicas. Todas con garantia de fabrica y servicio de llantera a domicilio."
+        },
+        {
+          "question": "La llantera movil vende llantas seminuevas?",
+          "answer": "Si, nuestra llantera movil ofrece llantas seminuevas seleccionadas con minimo 70% de vida util. Todas inspeccionadas para garantizar seguridad. La llantera a domicilio las lleva e instala con precios desde $500 MXN."
+        },
+        {
+          "question": "Cuanto cuestan las llantas nuevas de la llantera movil?",
+          "answer": "Los precios de nuestra llantera movil varian segun medida y marca: economicas desde $800 MXN, gama media desde $1,200 MXN, premium desde $2,000 MXN por llanta. Envianos la medida por WhatsApp al numero de llantera movil y cotizamos en minutos."
+        },
+        {
+          "question": "La instalacion esta incluida con la llantera movil?",
+          "answer": "Si, al comprar llantas con nuestra llantera movil, la instalacion esta incluida sin costo. El servicio de llantera a domicilio incluye montaje, balanceo basico, valvulas nuevas y verificacion de presion. Todo en tu ubicacion."
+        },
+        {
+          "question": "Como se que medida necesito para la llantera movil?",
+          "answer": "Puedes encontrar la medida en el costado de tu llanta (ej: 205/55R16), en la puerta del conductor, o en el manual. Tambien envianos marca, modelo y ano por WhatsApp al numero de llantera movil y la identificamos."
+        },
+        {
+          "question": "La llantera movil da garantia en llantas nuevas?",
+          "answer": "Si, todas las llantas nuevas de nuestra llantera movil incluyen garantia del fabricante por defectos. Ademas, la llantera a domicilio ofrece garantia propia de instalacion por 3 meses. Seminuevas tienen 1 mes de garantia."
+        },
+        {
+          "question": "La llantera movil lleva las llantas a mi domicilio?",
+          "answer": "Si, es nuestro servicio principal. Nuestra llantera movil lleva las llantas a tu ubicacion y las instala en el momento. No necesitas ir a ninguna tienda. La llantera a domicilio hace todo en tu casa, trabajo o donde indiques."
+        },
+        {
+          "question": "La llantera movil tiene promociones en juegos de 4 llantas?",
+          "answer": "Si, nuestra llantera movil ofrece descuentos en juegos de 4 llantas y promociones 3x4 en marcas seleccionadas. Pregunta por ofertas vigentes de la llantera a domicilio por WhatsApp."
+        }
+      ]
+    },
+    "llantero-precios": {
+      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-precios/",
+      "faqs": [
+        {
+          "question": "Cuanto cobra la llantera movil en Culiacan?",
+          "answer": "Los precios de nuestra llantera movil en Culiacan: parche de ponchadura desde $150 MXN, vulcanizado desde $180 MXN, cambio de llanta (mano de obra) desde $200 MXN, balanceo desde $200 MXN, alineacion desde $250 MXN. Los precios de la llantera a domicilio pueden variar por tipo de vehiculo."
+        },
+        {
+          "question": "Los precios de la llantera movil incluyen IVA?",
+          "answer": "Si, todos los precios de nuestra llantera movil incluyen IVA. No hay costos ocultos ni sorpresas. El precio que te cotiza la llantera a domicilio es el precio final. Ofrecemos factura electronica sin costo adicional."
+        },
+        {
+          "question": "La llantera movil cobra el traslado a domicilio?",
+          "answer": "Nuestra llantera movil no cobra traslado dentro de la zona urbana de Culiacan. Para carreteras o fuera del area urbana, la llantera a domicilio puede cobrar $100 a $300 MXN de traslado. Siempre te informamos antes."
+        },
+        {
+          "question": "Cuanto cuesta parchar una llanta con la llantera movil?",
+          "answer": "El parche de ponchadura de nuestra llantera movil cuesta desde $150 MXN para autos compactos. Para camionetas y SUVs desde $180 MXN. El servicio de llantera a domicilio incluye parche interior permanente con garantia de 6 meses y revision de presion de las 4 llantas."
+        },
+        {
+          "question": "Cuanto cuesta el servicio nocturno de la llantera movil?",
+          "answer": "El servicio nocturno (10PM a 6AM) de la llantera movil tiene cargo adicional de $100 a $200 MXN sobre el precio base. Este cargo de la llantera a domicilio 24 horas cubre disponibilidad y traslado nocturno."
+        },
+        {
+          "question": "La llantera movil tiene paquetes con descuento?",
+          "answer": "Si, nuestra llantera movil ofrece paquetes: cambio de 4 llantas + alineacion + balanceo con 15% de descuento, paquete de mantenimiento preventivo, y precios especiales de llantera a domicilio para clientes frecuentes y flotillas."
+        },
+        {
+          "question": "Que formas de pago acepta la llantera movil?",
+          "answer": "Nuestra llantera movil acepta efectivo, tarjeta de debito, credito (Visa, Mastercard, American Express), transferencia y CoDi. La llantera a domicilio cobra al terminar el servicio una vez que quedes satisfecho."
+        },
+        {
+          "question": "La llantera movil da presupuesto antes de trabajar?",
+          "answer": "Si, nuestra llantera movil siempre da presupuesto claro antes de iniciar. Puedes pedir cotizacion por WhatsApp al numero de llantera movil enviando fotos del problema o la medida de tu llanta. No hacemos trabajo sin tu autorizacion previa del precio."
+        }
+      ]
+    }
+  }
+}
