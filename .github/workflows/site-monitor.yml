@@ -1,0 +1,50 @@
+name: Monitor del Sitio
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+env:
+  SITE_URL: https://llanteramovilculiacanpro.mx
+  SITE_NAME: Llantero Movil Culiacan Pro
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verificar que el sitio responda
+        id: health
+        continue-on-error: true
+        run: |
+          echo "Verificando ${{ env.SITE_URL }}..."
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36"
+          for i in 1 2 3; do
+            HTTP_STATUS=$(curl -sL -o /dev/null -w "%{http_code}" "${{ env.SITE_URL }}" \
+              --max-time 30 --retry 2 --retry-delay 3 \
+              -H "User-Agent: $UA" -H "Accept: text/html" --compressed 2>/dev/null || echo "000")
+            if [ "$HTTP_STATUS" = "200" ] || [ "$HTTP_STATUS" = "301" ] || [ "$HTTP_STATUS" = "302" ]; then
+              break
+            fi
+            echo "Intento $i: status $HTTP_STATUS, reintentando..."
+            sleep 5
+          done
+          RESPONSE_TIME=$(curl -sL -o /dev/null -w "%{time_total}" "${{ env.SITE_URL }}" \
+            --max-time 30 -H "User-Agent: $UA" 2>/dev/null || echo "0")
+          echo "Status: $HTTP_STATUS | Response time: ${RESPONSE_TIME}s"
+          if [ "$HTTP_STATUS" != "200" ] && [ "$HTTP_STATUS" != "301" ] && [ "$HTTP_STATUS" != "302" ]; then
+            echo "SITIO CAIDO: $HTTP_STATUS"
+            exit 1
+          fi
+
+      - name: Verificar sitemap
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" "${{ env.SITE_URL }}/sitemap.xml")
+          echo "Sitemap status: $code"
+
+      - name: Summary
+        if: always()
+        run: echo "Monitor check finished for ${{ env.SITE_NAME }}"

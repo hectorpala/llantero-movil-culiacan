@@ -1,0 +1,69 @@
+name: Weekly SEO Check
+
+on:
+  schedule:
+    - cron: "0 15 * * 1"
+  workflow_dispatch: {}
+  push:
+    branches: [ main, master ]
+
+jobs:
+  seo_audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ripgrep jq curl
+
+      - name: Define URLs
+        id: urls
+        run: |
+          echo 'URLS=/ /servicios/llantero-cerca-de-mi/ /servicios/llantero-24-horas/ /servicios/llantero-a-domicilio/ /servicios/llantero-precios/ /contacto/' >> $GITHUB_OUTPUT
+
+      - name: Check sitemap HTTP 200
+        run: |
+          for s in https://llanteramovilculiacanpro.mx/sitemap.xml https://llanteramovilculiacanpro.mx/sitemaps/main_sitemap.xml; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$s")
+            echo "$s -> $code"
+            [ "$code" = "200" ] || (echo "Sitemap not 200: $s" && exit 1)
+          done
+
+      - name: Crawl pages and run checks
+        env:
+          BASE: https://llanteramovilculiacanpro.mx
+        run: |
+          FAIL=0
+          urls='${{ steps.urls.outputs.URLS }}'
+          for u in $urls; do
+            echo "== $u"
+            html="$(curl -sS "$BASE$u")" || FAIL=1
+
+            # Title length check
+            title=$(printf "%s" "$html" | rg -o '<title>.*?</title>' -N | sed -E 's|</?title>||g')
+            tlen=${#title}
+            echo "Title($tlen): $title"
+
+            # Meta description check
+            desc=$(printf "%s" "$html" | rg -o '<meta name="description" content="[^"]*"' -N | sed -E 's/.*content="(.*)"/\1/')
+            dlen=${#desc}
+            echo "Desc($dlen): ${desc:0:80}..."
+
+            # Canonical check
+            can=$(printf "%s" "$html" | rg -c '<link[^>]+rel="canonical"[^>]+https://llanteramovilculiacanpro.mx' -i || echo "0")
+            echo "Canonical: $can"
+            [ "$can" -ge 1 ] || { echo "Missing canonical in $u"; FAIL=1; }
+
+            # JSON-LD check
+            blocks=$(printf "%s" "$html" | rg -c '<script type="application/ld\+json">' || echo "0")
+            echo "JSON-LD blocks: $blocks"
+            [ "$blocks" -ge 1 ] || { echo "No JSON-LD in $u"; FAIL=1; }
+          done
+          [ $FAIL -eq 0 ] || exit 1
+
+      - name: Summary
+        if: always()
+        run: echo "SEO weekly check finished."

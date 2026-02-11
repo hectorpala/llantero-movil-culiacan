@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage Images -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/llantero-movil-hero-1200w.webp</image:loc>
+      <image:caption>Llantero movil profesional en Culiacan atendiendo emergencia de llanta ponchada</image:caption>
+      <image:title>Servicio de Llantero Movil 24 Horas Culiacan</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/cambio-llanta-420w.webp</image:loc>
+      <image:caption>Cambio de llanta a domicilio profesional en Culiacan</image:caption>
+      <image:title>Cambio de Llanta a Domicilio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/reparacion-ponchadura-420w.webp</image:loc>
+      <image:caption>Reparacion de ponchadura con parche interno profesional en Culiacan</image:caption>
+      <image:title>Reparacion de Ponchadura</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/vulcanizadora-movil-420w.webp</image:loc>
+      <image:caption>Vulcanizadora movil profesional atendiendo a domicilio en Culiacan</image:caption>
+      <image:title>Vulcanizadora Movil</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/llantero-24-horas-420w.webp</image:loc>
+      <image:caption>Llantero 24 horas disponible para emergencias en Culiacan</image:caption>
+      <image:title>Llantero 24 Horas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/alineacion-balanceo-420w.webp</image:loc>
+      <image:caption>Alineacion y balanceo profesional de llantas en Culiacan</image:caption>
+      <image:title>Alineacion y Balanceo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/venta-llantas-420w.webp</image:loc>
+      <image:caption>Venta de llantas nuevas y seminuevas en Culiacan</image:caption>
+      <image:title>Venta de Llantas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/logo-llantero-512.webp</image:loc>
+      <image:caption>Logo oficial de Llantero Movil Culiacan Pro</image:caption>
+      <image:title>Llantero Movil Culiacan Pro Logo</image:title>
+    </image:image>
+  </url>
+
+  <!-- Social proof images -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/social-proof/llantero-principal-van-1200w.webp</image:loc>
+      <image:caption>Unidad movil de Llantero Movil Culiacan Pro equipada para servicio a domicilio</image:caption>
+      <image:title>Unidad Movil Llantero Culiacan</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/social-proof/taller-movil-herramientas-1200w.webp</image:loc>
+      <image:caption>Herramientas profesionales del taller movil de llantero en Culiacan</image:caption>
+      <image:title>Herramientas Profesionales Llantero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/social-proof/team-llanteros-culiacan-1200w.webp</image:loc>
+      <image:caption>Equipo de llanteros profesionales de Llantero Movil Culiacan Pro</image:caption>
+      <image:title>Equipo de Llanteros Culiacan</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service: Cambio de Llanta -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/servicios/cambio-de-llanta/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/cambio-llanta-800w.webp</image:loc>
+      <image:caption>Cambio de llanta profesional a domicilio en Culiacan</image:caption>
+      <image:title>Cambio de Llanta a Domicilio Culiacan</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service: Reparacion de Ponchadura -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/servicios/reparacion-de-ponchadura/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/reparacion-ponchadura-800w.webp</image:loc>
+      <image:caption>Reparacion de ponchadura con parche interno profesional en Culiacan</image:caption>
+      <image:title>Reparacion de Ponchadura Culiacan</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service: Vulcanizadora Movil -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/servicios/vulcanizadora-movil/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/vulcanizadora-movil-800w.webp</image:loc>
+      <image:caption>Vulcanizadora movil profesional en Culiacan</image:caption>
+      <image:title>Vulcanizadora Movil Culiacan</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service: Llantero 24 Horas -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/servicios/llantero-24-horas/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/llantero-24-horas-800w.webp</image:loc>
+      <image:caption>Llantero 24 horas disponible para emergencias en Culiacan</image:caption>
+      <image:title>Llantero 24 Horas Culiacan</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service: Llantero a Domicilio -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/servicios/llantero-a-domicilio/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/llantero-domicilio-1200w.webp</image:loc>
+      <image:caption>Llantero a domicilio profesional en Culiacan</image:caption>
+      <image:title>Llantero a Domicilio Culiacan</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service: Llantero de Emergencia -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/servicios/llantero-de-emergencia/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/llantero-emergencia-1200w.webp</image:loc>
+      <image:caption>Llantero de emergencia respondiendo en carretera en Culiacan</image:caption>
+      <image:title>Llantero de Emergencia Culiacan</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service: Alineacion y Balanceo -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/servicios/alineacion-y-balanceo/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/alineacion-balanceo-800w.webp</image:loc>
+      <image:caption>Alineacion y balanceo profesional en Culiacan</image:caption>
+      <image:title>Alineacion y Balanceo Culiacan</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service: Venta de Llantas -->
+  <url>
+    <loc>https://llanteramovilculiacanpro.mx/servicios/venta-de-llantas/</loc>
+    <image:image>
+      <image:loc>https://llanteramovilculiacanpro.mx/assets/images/venta-llantas-800w.webp</image:loc>
+      <image:caption>Venta de llantas nuevas y seminuevas en Culiacan</image:caption>
+      <image:title>Venta de Llantas Culiacan</image:title>
+    </image:image>
+  </url>
+
+</urlset>

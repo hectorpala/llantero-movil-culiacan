@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirects 301 - Estructura de URLs
+# Fecha: 2026-02-10

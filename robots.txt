@@ -8,6 +8,7 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /manifest.json
 Allow: /assets/
+Allow: /sitemaps/
 Allow: /images/
 
 # Reglas especificas para Googlebot
@@ -41,3 +42,5 @@ Disallow: /
 
 # Sitemaps
 Sitemap: https://llanteramovilculiacanpro.mx/sitemap.xml
+Sitemap: https://llanteramovilculiacanpro.mx/sitemaps/main_sitemap.xml
+Sitemap: https://llanteramovilculiacanpro.mx/sitemaps/images_sitemap.xml

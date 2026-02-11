@@ -172,7 +172,7 @@
                                       'Telefono: ' + telefono + '\n' +
                                       'Email: ' + email + '\n' +
                                       'Mensaje: ' + mensaje;
-                const whatsappURL = 'https://wa.me/52667XXXXXXX?text=' + encodeURIComponent(whatsappMessage);
+                const whatsappURL = 'https://wa.me/526673922273?text=' + encodeURIComponent(whatsappMessage);
 
                 window.open(whatsappURL, '_blank');
                 window.location.href = '/gracias';
@@ -186,7 +186,7 @@
                                   'Telefono: ' + telefono + '\n' +
                                   'Email: ' + email + '\n' +
                                   'Mensaje: ' + mensaje;
-            const whatsappURL = 'https://wa.me/52667XXXXXXX?text=' + encodeURIComponent(whatsappMessage);
+            const whatsappURL = 'https://wa.me/526673922273?text=' + encodeURIComponent(whatsappMessage);
             window.location.href = whatsappURL;
         }
     });
@@ -548,7 +548,7 @@ if ('serviceWorker' in navigator) {
                 msg += 'Detalle: ' + mensaje + '\n';
             }
 
-            var whatsappURL = 'https://wa.me/52667XXXXXXX?text=' + encodeURIComponent(msg);
+            var whatsappURL = 'https://wa.me/526673922273?text=' + encodeURIComponent(msg);
 
             try {
                 window.dataLayer = window.dataLayer || [];
