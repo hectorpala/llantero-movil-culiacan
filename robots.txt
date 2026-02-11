@@ -40,4 +40,4 @@ User-agent: DotBot
 Disallow: /
 
 # Sitemaps
-Sitemap: https://llanteromoviculiacanpro.com/sitemap.xml
+Sitemap: https://llanteramovilculiacanpro.mx/sitemap.xml

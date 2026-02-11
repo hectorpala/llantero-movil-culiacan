@@ -293,7 +293,7 @@ Las 3 son identicas en estructura (solo cambia nombre de colonia), confirmando q
 | # | Meta Tag | Plomero (Correcto) | Colonias (Actual) | Estado |
 |---|----------|-------------------|-------------------|--------|
 | 166 | theme-color | #E36414 | #1a1a2e | **CRITICO** |
-| 167 | canonical domain | llanteromoviculiacanpro.mx | llanteromoviculiacanpro.com | **CRITICO** |
+| 167 | canonical domain | llanteromoviculiacanpro.mx | llanteramovilculiacanpro.mx | **CRITICO** |
 | 168 | og:type | Presente | Ausente | **FALTANTE** |
 | 169 | og:url | Presente | Ausente | **FALTANTE** |
 | 170 | og:title | Presente | Ausente | **FALTANTE** |

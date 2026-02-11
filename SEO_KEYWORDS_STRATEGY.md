@@ -1,6 +1,6 @@
 # Estrategia SEO - Llantero Movil Culiacan Pro
 
-**Dominio:** llanteromoviculiacanpro.com
+**Dominio:** llanteramovilculiacanpro.mx
 **Fecha:** 2026-02-10
 **Ultima actualizacion:** 2026-02-10
 **Industria:** Servicios automotrices / Llantera movil

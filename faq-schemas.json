@@ -1,7 +1,7 @@
 {
   "_meta": {
     "project": "Llantero Movil Culiacan Pro",
-    "domain": "llanteromoviculiacanpro.com",
+    "domain": "llanteramovilculiacanpro.mx",
     "lastUpdated": "2026-02-10",
     "description": "FAQs organizadas por pagina para schemas JSON-LD FAQPage. Incluye keywords Tier 1, 2 y 3 integradas naturalmente.",
     "keywordTiers": {
@@ -13,7 +13,7 @@
   },
   "pages": {
     "home": {
-      "url": "https://llanteromoviculiacanpro.com/",
+      "url": "https://llanteramovilculiacanpro.mx/",
       "faqs": [
         {
           "question": "Que es una llantera movil y como funciona?",
@@ -58,7 +58,7 @@
       ]
     },
     "cambio-de-llanta": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/cambio-de-llanta/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/cambio-de-llanta/",
       "faqs": [
         {
           "question": "Cuanto cuesta el cambio de llanta a domicilio en Culiacan?",
@@ -95,7 +95,7 @@
       ]
     },
     "reparacion-de-ponchadura": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/reparacion-de-ponchadura/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/reparacion-de-ponchadura/",
       "faqs": [
         {
           "question": "Cuanto cuesta reparar una ponchadura con la llantera movil?",
@@ -132,7 +132,7 @@
       ]
     },
     "vulcanizadora-movil": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/vulcanizadora-movil/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/vulcanizadora-movil/",
       "faqs": [
         {
           "question": "Que es una vulcanizadora movil y en que se diferencia de una llantera movil?",
@@ -169,7 +169,7 @@
       ]
     },
     "llantero-24-horas": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-24-horas/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/llantero-24-horas/",
       "faqs": [
         {
           "question": "La llantera movil de verdad atiende las 24 horas del dia?",
@@ -206,7 +206,7 @@
       ]
     },
     "llantero-a-domicilio": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-a-domicilio/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/llantero-a-domicilio/",
       "faqs": [
         {
           "question": "Como funciona el servicio de llantera a domicilio?",
@@ -247,7 +247,7 @@
       ]
     },
     "llantero-cerca-de-mi": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-cerca-de-mi/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/llantero-cerca-de-mi/",
       "faqs": [
         {
           "question": "Como encuentro una llantera movil cerca de mi?",
@@ -288,7 +288,7 @@
       ]
     },
     "llantero-de-emergencia": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-de-emergencia/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/llantero-de-emergencia/",
       "faqs": [
         {
           "question": "Que se considera una emergencia para la llantera movil?",
@@ -325,7 +325,7 @@
       ]
     },
     "alineacion-y-balanceo": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/alineacion-y-balanceo/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/alineacion-y-balanceo/",
       "faqs": [
         {
           "question": "Cuanto cuesta la alineacion y balanceo de la llantera movil?",
@@ -362,7 +362,7 @@
       ]
     },
     "venta-de-llantas": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/venta-de-llantas/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/venta-de-llantas/",
       "faqs": [
         {
           "question": "Que marcas de llantas maneja la llantera movil?",
@@ -399,7 +399,7 @@
       ]
     },
     "llantero-precios": {
-      "url": "https://llanteromoviculiacanpro.com/servicios/llantero-precios/",
+      "url": "https://llanteramovilculiacanpro.mx/servicios/llantero-precios/",
       "faqs": [
         {
           "question": "Cuanto cobra la llantera movil en Culiacan?",

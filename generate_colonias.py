@@ -48,10 +48,10 @@ def generate_page(slug, name):
 <meta name="geo.placename" content="Culiac&aacute;n">
 <meta name="geo.position" content="24.7903;-107.3878">
 <meta name="ICBM" content="24.7903, -107.3878">
-<link rel="canonical" href="https://llanteromoviculiacanpro.com/servicios/llantero-colonias-culiacan/{slug}/">
+<link rel="canonical" href="https://llanteramovilculiacanpro.mx/servicios/llantero-colonias-culiacan/{slug}/">
 <meta name="theme-color" content="#E36414">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://llanteromoviculiacanpro.com/servicios/llantero-colonias-culiacan/{slug}/">
+<meta property="og:url" content="https://llanteramovilculiacanpro.mx/servicios/llantero-colonias-culiacan/{slug}/">
 <meta property="og:title" content="Llantera M&oacute;vil en {name}, Culiac&aacute;n | Servicio a Domicilio 24/7">
 <meta property="og:description" content="Llantera m&oacute;vil profesional en {name}, Culiac&aacute;n. Servicio a domicilio 24/7. Llegada 20-30 min.">
 <meta property="og:locale" content="es_MX">
@@ -66,10 +66,10 @@ def generate_page(slug, name):
   "@graph": [
     {{
       "@type": "AutoRepair",
-      "@id": "https://llanteromoviculiacanpro.com/#business",
+      "@id": "https://llanteramovilculiacanpro.mx/#business",
       "name": "Llantera M\u00f3vil Culiac\u00e1n Pro",
       "description": "Servicio de llantera m\u00f3vil a domicilio en {name}, Culiac\u00e1n. Cambio de llantas, reparaci\u00f3n de ponchaduras, vulcanizado, alineaci\u00f3n y balanceo.",
-      "url": "https://llanteromoviculiacanpro.com/",
+      "url": "https://llanteramovilculiacanpro.mx/",
       "telephone": "+526673922273",
       "areaServed": {{ "@type": "Place", "name": "{name}, Culiac\u00e1n, Sinaloa" }},
       "address": {{ "@type": "PostalAddress", "addressLocality": "Culiac\u00e1n", "addressRegion": "Sinaloa", "addressCountry": "MX" }},
@@ -81,8 +81,8 @@ def generate_page(slug, name):
     {{
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {{ "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://llanteromoviculiacanpro.com/" }},
-        {{ "@type": "ListItem", "position": 2, "name": "Colonias", "item": "https://llanteromoviculiacanpro.com/servicios/llantero-colonias-culiacan/" }},
+        {{ "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://llanteramovilculiacanpro.mx/" }},
+        {{ "@type": "ListItem", "position": 2, "name": "Colonias", "item": "https://llanteramovilculiacanpro.mx/servicios/llantero-colonias-culiacan/" }},
         {{ "@type": "ListItem", "position": 3, "name": "{name}" }}
       ]
     }},
@@ -90,7 +90,7 @@ def generate_page(slug, name):
       "@type": "Service",
       "name": "Llantera M\u00f3vil a Domicilio en {name}",
       "serviceType": "Reparaci\u00f3n de Llantas a Domicilio",
-      "provider": {{ "@id": "https://llanteromoviculiacanpro.com/#business" }},
+      "provider": {{ "@id": "https://llanteramovilculiacanpro.mx/#business" }},
       "areaServed": {{ "@type": "Place", "name": "{name}, Culiac\u00e1n" }},
       "offers": {{ "@type": "Offer", "priceCurrency": "MXN", "availability": "https://schema.org/InStock" }}
     }}
