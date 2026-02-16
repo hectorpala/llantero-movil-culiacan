@@ -1819,6 +1819,52 @@ p {
   font-size: 0.9rem;
 }
 
+/* Map lazy-load placeholder */
+.map-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.map-placeholder:hover {
+  background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
+}
+
+.map-placeholder-text {
+  color: #4b5563;
+  font-size: 1rem;
+  margin: 0.75rem 0 1.25rem;
+  font-weight: 500;
+}
+
+.map-placeholder-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 12px 24px;
+  background: var(--gradient-brand);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(227,100,20,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.map-placeholder-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(227,100,20,0.4);
+}
+
 
 /* ===== SERVICE DETAIL PAGES ===== */
 
@@ -3065,5 +3111,98 @@ a:focus-visible {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================
+   MOBILE HERO REDESIGN - CTA ABOVE THE FOLD
+   ============================================ */
+
+/* Ocultar extension del H1 en movil */
+.hero-h1-extended {
+  display: inline;
+}
+
+/* Seccion subtitulo movil - oculta por defecto */
+.hero-subtitle-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Hero compacto: altura auto, sin viewport fijo */
+  .hero {
+    min-height: auto !important;
+    height: auto !important;
+    padding: 16px 16px 1.25rem !important;
+    justify-content: center !important;
+  }
+
+  /* H1 compacto en 1 linea */
+  .hero h1 {
+    font-size: 1.35rem !important;
+    line-height: 1.15 !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0 !important;
+  }
+
+  .hero-h1-extended {
+    display: none !important;
+  }
+
+  /* Rating mas compacto - fondo blanco para contraste */
+  .hero-rating {
+    margin: 0.5rem 0 0.625rem !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 0.8rem !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+  }
+
+  /* Ocultar subtitulo y features del hero */
+  .hero .hero-subtitle {
+    display: none !important;
+  }
+
+  .hero .hero-features {
+    display: none !important;
+  }
+
+  /* Disponibilidad compacta */
+  .hero .hero-availability {
+    font-size: 0.8rem !important;
+    margin-bottom: 0.625rem !important;
+    padding: 0.375rem 0.875rem !important;
+  }
+
+  /* Hero content: padding reducido */
+  .hero-content {
+    padding: 1.25rem 1.25rem !important;
+    margin: 0 auto 0.5rem auto !important;
+  }
+
+  /* CTA boton: prominente e inmediato */
+  .hero .btn-primary {
+    margin-top: 0 !important;
+    padding: 0.875rem 1.5rem !important;
+    font-size: 1.05rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Mostrar subtitulo movil debajo del hero */
+  .hero-subtitle-mobile {
+    display: block;
+    padding: 1.25rem 0;
+    background: #fff;
+    text-align: center;
+  }
+
+  .hero-subtitle-mobile p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-light);
+    margin: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

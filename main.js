@@ -599,7 +599,7 @@ if ('serviceWorker' in navigator) {
     var quoteTrigger = document.getElementById('quote-trigger');
     if (!floatingBtns.length) return;
 
-    var criticalSections = document.querySelectorAll('#contacto, .footer, .contact-form, .map-embed');
+    var criticalSections = document.querySelectorAll('.hero, #contacto, .footer, .contact-form, .map-embed');
     if (!criticalSections.length) return;
 
     var isHidden = false;
@@ -760,3 +760,41 @@ if ('serviceWorker' in navigator) {
 })();
 
 // ===== FIN DE TRACKING EVENTS =====
+
+// Lazy-load Google Maps iframe (ahorra ~500KB en carga inicial)
+(function() {
+    var mapContainer = document.getElementById('map-lazy');
+    if (!mapContainer) return;
+
+    var mapSrc = mapContainer.getAttribute('data-src');
+    if (!mapSrc) return;
+
+    var loaded = false;
+
+    function loadMap() {
+        if (loaded) return;
+        loaded = true;
+        var iframe = document.createElement('iframe');
+        iframe.src = mapSrc;
+        iframe.allowFullscreen = true;
+        iframe.referrerPolicy = 'no-referrer-when-downgrade';
+        iframe.title = 'Cobertura Llantero Movil Culiacan Pro';
+        iframe.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;border:0';
+        mapContainer.innerHTML = '';
+        mapContainer.appendChild(iframe);
+    }
+
+    // Cargar al hacer click/tap en el placeholder
+    mapContainer.addEventListener('click', loadMap);
+
+    // Cargar al hacer scroll cerca del mapa (200px antes de ser visible)
+    if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries) {
+            if (entries[0].isIntersecting) {
+                loadMap();
+                observer.disconnect();
+            }
+        }, { rootMargin: '200px' });
+        observer.observe(mapContainer);
+    }
+})();
