@@ -359,6 +359,21 @@ p {
     margin-top: 0 !important;
   }
 
+  .hero-phone-link {
+    display: block;
+    margin-top: 0.75rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-phone-link:hover,
+  .hero-phone-link:active {
+    text-decoration: underline;
+  }
+
   .hero-subtitle-mobile {
     display: block;
     padding: 1.25rem 0;
@@ -658,6 +673,10 @@ p {
 
 .hero .btn-primary {
   animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.hero-phone-link {
+  display: none;
 }
 
 /* Mobile menu button */
@@ -1073,15 +1092,27 @@ p {
     padding: 2rem 0;
   }
 
+  .testimonial-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    scrollbar-width: none;
+  }
+
+  .testimonial-grid::-webkit-scrollbar {
+    display: none;
+  }
+
   .testimonial-card {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
     background: rgba(255, 255, 255, 0.85) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-  }
-
-  .testimonial-grid {
-    gap: 1.5rem;
   }
 }
 
