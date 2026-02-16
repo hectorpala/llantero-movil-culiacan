@@ -297,7 +297,6 @@
     var whatsappBtn = document.getElementById('exit-popup-whatsapp');
     var phoneBtn = document.getElementById('exit-popup-phone');
     var popupShown = false;
-    var POPUP_DELAY = 30000;
     var SESSION_KEY = 'exitPopupShown';
 
     if (sessionStorage.getItem(SESSION_KEY)) return;
@@ -343,8 +342,6 @@
     }
 
     if (isMobile()) {
-        setTimeout(showPopup, POPUP_DELAY);
-
         history.pushState(null, '', location.href);
         window.addEventListener('popstate', function() {
             if (!popupShown) {
