@@ -368,7 +368,7 @@ p {
   .hero-phone-link {
     display: block;
     margin-top: 0.75rem;
-    color: #fff;
+    color: var(--brand);
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
@@ -3008,6 +3008,9 @@ a:focus-visible {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+  .availability-dot {
+    animation: pulse-dot 1.5s ease-in-out infinite !important;
   }
 }
 
