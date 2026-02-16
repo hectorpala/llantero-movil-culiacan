@@ -603,3 +603,17 @@ if ('serviceWorker' in navigator) {
         observer.observe(mapContainer);
     }
 })();
+
+// Urgency indicator - mensaje dinamico segun hora del dia
+(function() {
+    var el = document.getElementById('urgency-text');
+    if (!el) return;
+
+    var h = new Date().getHours();
+
+    if (h >= 7 && h < 22) {
+        el.textContent = 'Disponible ahora \u2013 respuesta en ~5 min';
+    } else {
+        el.textContent = 'Servicio nocturno activo';
+    }
+})();
