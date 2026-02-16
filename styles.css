@@ -182,6 +182,12 @@ p {
   transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
 }
 
+.nav.nav-scrolled {
+  background: rgba(255,255,255,.98);
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
+  padding: 8px 0;
+}
+
 .nav-wrapper {
   display: flex;
   align-items: center;

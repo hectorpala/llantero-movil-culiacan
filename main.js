@@ -604,6 +604,32 @@ if ('serviceWorker' in navigator) {
     }
 })();
 
+// Nav scroll – fondo solido al hacer scroll
+(function() {
+    var nav = document.querySelector('.nav');
+    if (!nav) return;
+
+    var ticking = false;
+
+    function updateNav() {
+        if (window.scrollY > 50) {
+            nav.classList.add('nav-scrolled');
+        } else {
+            nav.classList.remove('nav-scrolled');
+        }
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', function() {
+        if (!ticking) {
+            requestAnimationFrame(updateNav);
+            ticking = true;
+        }
+    }, { passive: true });
+
+    updateNav();
+})();
+
 // Urgency indicator - mensaje dinamico segun hora del dia
 (function() {
     var el = document.getElementById('urgency-text');
