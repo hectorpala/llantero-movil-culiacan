@@ -54,7 +54,7 @@ if (window.requestIdleCallback) {
 <link rel="dns-prefetch" href="https://wa.me">
 <link rel="dns-prefetch" href="https://www.google.com">
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-<link rel="preload" as="image" href="/assets/images/llantero-movil-hero-1200w.webp" imagesrcset="/assets/images/llantero-movil-hero-500w.webp 500w, /assets/images/llantero-movil-hero-800w.webp 800w, /assets/images/llantero-movil-hero-1200w.webp 1200w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/images/llantero-movil-hero-500w.avif" imagesrcset="/assets/images/llantero-movil-hero-500w.avif 500w, /assets/images/llantero-movil-hero-800w.avif 800w, /assets/images/llantero-movil-hero-1200w.avif 1200w" imagesizes="100vw" type="image/avif" fetchpriority="high">
 <link rel="preload" href="/assets/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
 <link rel="preload" href="/assets/fonts/inter-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-600.woff2" as="font" type="font/woff2" crossorigin>
@@ -153,7 +153,7 @@ p{font-size:1rem;line-height:1.7;color:var(--text-light);margin-bottom:1rem}
       "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://llanteramovilculiacanpro.mx/"}]
     },
     {
-      "@type": "AutoRepair",
+      "@type": ["AutoRepair", "AutomotiveBusiness"],
       "@id": "https://llanteramovilculiacanpro.mx/#business",
       "name": "Llantera Movil Culiacan Pro",
       "url": "https://llanteramovilculiacanpro.mx/",
@@ -179,7 +179,24 @@ p{font-size:1rem;line-height:1.7;color:var(--text-light);margin-bottom:1rem}
         {"@type": "Place", "name": "Bachigualato, Culiacan"},
         {"@type": "Place", "name": "Villa Universidad, Culiacan"},
         {"@type": "Place", "name": "La Campiña, Culiacan"},
-        {"@type": "Place", "name": "Barrancos, Culiacan"}
+        {"@type": "Place", "name": "Barrancos, Culiacan"},
+        {"@type": "Place", "name": "Santa Fe, Culiacan"},
+        {"@type": "Place", "name": "Las Palmas, Culiacan"},
+        {"@type": "Place", "name": "Nuevo Culiacan, Culiacan"},
+        {"@type": "Place", "name": "Isla del Oeste, Culiacan"},
+        {"@type": "Place", "name": "Country Tres Rios, Culiacan"},
+        {"@type": "Place", "name": "Lomas de San Miguel, Culiacan"},
+        {"@type": "Place", "name": "Las Quintas Residencial, Culiacan"},
+        {"@type": "Place", "name": "Colinas de San Miguel, Culiacan"},
+        {"@type": "Place", "name": "Desarrollo Urbano Tres Rios, Culiacan"},
+        {"@type": "Place", "name": "El Barrio, Culiacan"},
+        {"@type": "Place", "name": "Tierra Blanca, Culiacan"},
+        {"@type": "Place", "name": "Valle Alto, Culiacan"},
+        {"@type": "Place", "name": "Infonavit Barrancos, Culiacan"},
+        {"@type": "Place", "name": "La Lima, Culiacan"},
+        {"@type": "Place", "name": "El Palmito, Culiacan"},
+        {"@type": "Place", "name": "Vallado Nuevo, Culiacan"},
+        {"@type": "Place", "name": "Las Arenitas, Culiacan"}
       ],
       "geo": {"@type": "GeoCoordinates", "latitude": "24.7903", "longitude": "-107.3878"},
       "priceRange": "$$",
@@ -247,7 +264,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div></div></nav>
 
 <header id="inicio" class="hero">
-  <div class="hero-image"><img src="/assets/images/llantero-movil-hero-1200w.webp" srcset="/assets/images/llantero-movil-hero-500w.webp 500w, /assets/images/llantero-movil-hero-800w.webp 800w, /assets/images/llantero-movil-hero-1200w.webp 1200w" sizes="100vw" alt="Llantera movil profesional en Culiacan atendiendo emergencia de llanta ponchada" width="1200" height="800" fetchpriority="high" decoding="async"></div>
+  <div class="hero-image"><picture><source type="image/avif" srcset="/assets/images/llantero-movil-hero-500w.avif 500w, /assets/images/llantero-movil-hero-800w.avif 800w, /assets/images/llantero-movil-hero-1200w.avif 1200w" sizes="100vw"><source type="image/webp" srcset="/assets/images/llantero-movil-hero-500w.webp 500w, /assets/images/llantero-movil-hero-800w.webp 800w, /assets/images/llantero-movil-hero-1200w.webp 1200w" sizes="100vw"><img src="/assets/images/llantero-movil-hero-1200w.webp" srcset="/assets/images/llantero-movil-hero-500w.webp 500w, /assets/images/llantero-movil-hero-800w.webp 800w, /assets/images/llantero-movil-hero-1200w.webp 1200w" sizes="100vw" alt="Llantera movil profesional en Culiacan atendiendo emergencia de llanta ponchada" width="1200" height="800" fetchpriority="high" decoding="async"></picture></div>
   <div class="container"><div class="hero-content">
     <h1 class="fade-in">Llantero Movil a Domicilio en Culiacan<span class="hero-h1-extended"> | Servicio 24/7</span></h1>
     <div class="hero-rating fade-in">
@@ -295,12 +312,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="servicios" class="section"><div class="container">
   <h2>Nuestros Servicios</h2>
   <div class="grid">
-    <a href="/servicios/cambio-de-llanta/" class="card card--img"><div class="service-card"><figure class="media-box"><img src="/assets/images/cambio-llanta-420w.webp" alt="Cambio de llanta a domicilio en Culiacan" width="420" height="420" loading="lazy" decoding="async"></figure></div><h3>Cambio de Llanta a Domicilio</h3><p>Cambio de llanta ponchada o danada a domicilio. Llegamos con todo el equipo a tu ubicacion en 30-60 minutos.</p><ul class="service-list"><li>Cambio rapido con gato hidraulico profesional</li><li>Servicio para autos, camionetas y SUVs</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
-    <a href="/servicios/reparacion-de-ponchadura/" class="card card--img"><div class="service-card"><figure class="media-box"><img src="/assets/images/reparacion-ponchadura-420w.webp" alt="Reparacion de ponchadura en Culiacan" width="420" height="420" loading="lazy" decoding="async"></figure></div><h3>Reparacion de Ponchadura</h3><p>Reparacion profesional con parche interno certificado. Llegamos a donde estes en Culiacan para reparar tu llanta.</p><ul class="service-list"><li>Parche interno profesional con garantia</li><li>Deteccion y reparacion de fugas de aire</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
-    <a href="/servicios/vulcanizadora-movil/" class="card card--img"><div class="service-card"><figure class="media-box"><img src="/assets/images/vulcanizadora-movil-420w.webp" alt="Vulcanizadora movil en Culiacan" width="420" height="420" loading="lazy" decoding="async"></figure></div><h3>Vulcanizadora Movil</h3><p>Servicio completo de vulcanizadora movil. Reparacion, vulcanizado, inflado y revision directo en tu ubicacion.</p><ul class="service-list"><li>Vulcanizado profesional a domicilio</li><li>Equipo completo portatil</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
-    <a href="/servicios/llantero-24-horas/" class="card card--img"><div class="service-card"><figure class="media-box"><img src="/assets/images/llantero-24-horas-420w.webp" alt="Llantero 24 horas en Culiacan" width="420" height="420" loading="lazy" decoding="async"></figure></div><h3>Llantero 24 Horas</h3><p>Servicio disponible las 24 horas en Culiacan. Madrugadas, fines de semana y dias festivos.</p><ul class="service-list"><li>Atencion nocturna y dias festivos</li><li>Respuesta inmediata por WhatsApp</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
-    <a href="/servicios/alineacion-y-balanceo/" class="card card--img"><div class="service-card"><figure class="media-box"><img src="/assets/images/alineacion-balanceo-420w.webp" alt="Alineacion y balanceo en Culiacan" width="420" height="420" loading="lazy" decoding="async"></figure></div><h3>Alineacion y Balanceo</h3><p>Alineacion y balanceo profesional. Mejora rendimiento de llantas, ahorra combustible y viaja seguro.</p><ul class="service-list"><li>Equipo computarizado de precision</li><li>Alineacion de 4 ruedas</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
-    <a href="/servicios/venta-de-llantas/" class="card card--img"><div class="service-card"><figure class="media-box"><img src="/assets/images/venta-llantas-420w.webp" alt="Venta de llantas en Culiacan" width="420" height="420" loading="lazy" decoding="async"></figure></div><h3>Venta de Llantas</h3><p>Llantas nuevas y seminuevas de las mejores marcas a precios competitivos. Te asesoramos para elegir la ideal.</p><ul class="service-list"><li>Marcas reconocidas</li><li>Instalacion incluida</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
+    <a href="/servicios/cambio-de-llanta/" class="card card--img"><div class="service-card"><figure class="media-box"><picture><source type="image/avif" srcset="/assets/images/cambio-llanta-420w.avif 420w, /assets/images/cambio-llanta-800w.avif 800w"><source type="image/webp" srcset="/assets/images/cambio-llanta-420w.webp 420w, /assets/images/cambio-llanta-800w.webp 800w"><img src="/assets/images/cambio-llanta-420w.webp" alt="Cambio de llanta a domicilio en Culiacan" width="420" height="420" loading="lazy" decoding="async"></picture></figure></div><h3>Cambio de Llanta a Domicilio</h3><p>Cambio de llanta ponchada o danada a domicilio. Llegamos con todo el equipo a tu ubicacion en 30-60 minutos.</p><ul class="service-list"><li>Cambio rapido con gato hidraulico profesional</li><li>Servicio para autos, camionetas y SUVs</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
+    <a href="/servicios/reparacion-de-ponchadura/" class="card card--img"><div class="service-card"><figure class="media-box"><picture><source type="image/avif" srcset="/assets/images/reparacion-ponchadura-420w.avif 420w, /assets/images/reparacion-ponchadura-800w.avif 800w"><source type="image/webp" srcset="/assets/images/reparacion-ponchadura-420w.webp 420w, /assets/images/reparacion-ponchadura-800w.webp 800w"><img src="/assets/images/reparacion-ponchadura-420w.webp" alt="Reparacion de ponchadura en Culiacan" width="420" height="420" loading="lazy" decoding="async"></picture></figure></div><h3>Reparacion de Ponchadura</h3><p>Reparacion profesional con parche interno certificado. Llegamos a donde estes en Culiacan para reparar tu llanta.</p><ul class="service-list"><li>Parche interno profesional con garantia</li><li>Deteccion y reparacion de fugas de aire</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
+    <a href="/servicios/vulcanizadora-movil/" class="card card--img"><div class="service-card"><figure class="media-box"><picture><source type="image/avif" srcset="/assets/images/vulcanizadora-movil-420w.avif 420w, /assets/images/vulcanizadora-movil-800w.avif 800w"><source type="image/webp" srcset="/assets/images/vulcanizadora-movil-420w.webp 420w, /assets/images/vulcanizadora-movil-800w.webp 800w"><img src="/assets/images/vulcanizadora-movil-420w.webp" alt="Vulcanizadora movil en Culiacan" width="420" height="420" loading="lazy" decoding="async"></picture></figure></div><h3>Vulcanizadora Movil</h3><p>Servicio completo de vulcanizadora movil. Reparacion, vulcanizado, inflado y revision directo en tu ubicacion.</p><ul class="service-list"><li>Vulcanizado profesional a domicilio</li><li>Equipo completo portatil</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
+    <a href="/servicios/llantero-24-horas/" class="card card--img"><div class="service-card"><figure class="media-box"><picture><source type="image/avif" srcset="/assets/images/llantero-24-horas-420w.avif 420w, /assets/images/llantero-24-horas-800w.avif 800w"><source type="image/webp" srcset="/assets/images/llantero-24-horas-420w.webp 420w, /assets/images/llantero-24-horas-800w.webp 800w"><img src="/assets/images/llantero-24-horas-420w.webp" alt="Llantero 24 horas en Culiacan" width="420" height="420" loading="lazy" decoding="async"></picture></figure></div><h3>Llantero 24 Horas</h3><p>Servicio disponible las 24 horas en Culiacan. Madrugadas, fines de semana y dias festivos.</p><ul class="service-list"><li>Atencion nocturna y dias festivos</li><li>Respuesta inmediata por WhatsApp</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
+    <a href="/servicios/alineacion-y-balanceo/" class="card card--img"><div class="service-card"><figure class="media-box"><picture><source type="image/avif" srcset="/assets/images/alineacion-balanceo-420w.avif 420w, /assets/images/alineacion-balanceo-800w.avif 800w"><source type="image/webp" srcset="/assets/images/alineacion-balanceo-420w.webp 420w, /assets/images/alineacion-balanceo-800w.webp 800w"><img src="/assets/images/alineacion-balanceo-420w.webp" alt="Alineacion y balanceo en Culiacan" width="420" height="420" loading="lazy" decoding="async"></picture></figure></div><h3>Alineacion y Balanceo</h3><p>Alineacion y balanceo profesional. Mejora rendimiento de llantas, ahorra combustible y viaja seguro.</p><ul class="service-list"><li>Equipo computarizado de precision</li><li>Alineacion de 4 ruedas</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
+    <a href="/servicios/venta-de-llantas/" class="card card--img"><div class="service-card"><figure class="media-box"><picture><source type="image/avif" srcset="/assets/images/venta-llantas-420w.avif 420w, /assets/images/venta-llantas-800w.avif 800w"><source type="image/webp" srcset="/assets/images/venta-llantas-420w.webp 420w, /assets/images/venta-llantas-800w.webp 800w"><img src="/assets/images/venta-llantas-420w.webp" alt="Venta de llantas en Culiacan" width="420" height="420" loading="lazy" decoding="async"></picture></figure></div><h3>Venta de Llantas</h3><p>Llantas nuevas y seminuevas de las mejores marcas a precios competitivos. Te asesoramos para elegir la ideal.</p><ul class="service-list"><li>Marcas reconocidas</li><li>Instalacion incluida</li></ul><span class="service-cta">Mas Informacion &rarr;</span></a>
   </div>
   <p class="services-intro">Necesitas atencion urgente? Explora nuestras <strong>especialidades y opciones de servicio</strong> en Culiacan. Desde llantero de emergencia 24/7 hasta cotizaciones por WhatsApp.</p>
 </div></section>
