@@ -1494,6 +1494,20 @@ p {
   display: block;
 }
 
+/* CLS Prevention - aspect-ratio for service images */
+.service-card img,
+.service-card picture img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: auto;
+}
+
+/* CLS Prevention - aspect-ratio for hero image */
+.hero-image img,
+.hero-image picture img {
+  aspect-ratio: 3/2;
+}
+
 /* SEO section */
 .seo-links {
   padding: var(--space-xl) 0;
@@ -1728,7 +1742,7 @@ p {
 
 /* Hero Features List */
 .stats-bar {
-  background: var(--brand);
+  background: var(--brand-dark);
   padding: 1.5rem 0;
 }
 
