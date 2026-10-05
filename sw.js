@@ -2,14 +2,14 @@
 // Ultima actualizacion: 2026-02-10
 // Estrategia: Cache-First para assets, Network-First para HTML
 
-const CACHE_NAME = 'llantero-culiacan-v1';
-const RUNTIME_CACHE = 'llantero-runtime-v1';
+const CACHE_NAME = 'llantero-culiacan-v2';
+const RUNTIME_CACHE = 'llantero-runtime-v2';
 
 // Assets criticos para cachear en instalacion
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
-  '/main.js',
+  '/main.js?v=20261004',
   '/styles.css',
   '/assets/fonts/inter-400.woff2',
   '/assets/fonts/montserrat-700.woff2',

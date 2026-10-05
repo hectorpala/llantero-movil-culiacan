@@ -62,15 +62,28 @@ body{margin:0;background:#fff;color:#111;font:16px/1.5 system-ui,-apple-system,S
 <!-- Google Tag Manager -->
 <script>
 window.dataLayer = window.dataLayer || [];
-if (window.requestIdleCallback) {
-  requestIdleCallback(() => {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PBNKL64L';
-    document.head.appendChild(script);
-  });
-}
+window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+(function() {
+  // GTM diferido (protege el LCP): carga en la primera interacción o 1.5 s después del load.
+  // El push de 'gtm.js' de arriba es OBLIGATORIO: sin él GA4 no registra la visita.
+  // Sin requestIdleCallback: Safari/iPhone no lo tiene.
+  var loaded = false;
+  var events = ['scroll', 'click', 'touchstart', 'keydown'];
+  var loadGTM = function() {
+    if (loaded) return;
+    loaded = true;
+    events.forEach(function(e) { window.removeEventListener(e, loadGTM, true); });
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PBNKL64L';
+    document.head.appendChild(s);
+  };
+  events.forEach(function(e) { window.addEventListener(e, loadGTM, {passive: true, capture: true}); });
+  var later = function() { setTimeout(loadGTM, 1500); };
+  if (document.readyState === 'complete') later(); else window.addEventListener('load', later);
+})();
 </script>
+<!-- End Google Tag Manager -->
 <!-- Google Tag Manager (noscript) -->
 <noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBNKL64L"
@@ -86,14 +99,14 @@ if (window.requestIdleCallback) {
   <div class="methods">
     <div class="method">
       <h3>📱 WhatsApp (Recomendado)</h3>
-      <div class="phone">667-392-2273</div>
+      <div class="phone"><a href="https://wa.me/526673922273?text=Hola,%20necesito%20un%20llantero%20movil%20en%20Culiacan" target="_blank" rel="noopener noreferrer" style="color:inherit;font-weight:600;text-decoration:underline">667-392-2273</a></div>
       <p>Envia tu ubicacion y foto de la llanta. Respuesta inmediata con estimado de precio.</p>
       <a href="https://wa.me/526673922273?text=Hola,%20necesito%20un%20llantero%20movil%20en%20Culiacan" class="btn btn-wa" target="_blank" rel="noopener">Abrir WhatsApp</a>
     </div>
 
     <div class="method">
       <h3>📞 Llamadas Directas</h3>
-      <div class="phone">667-392-2273</div>
+      <div class="phone"><a href="tel:+526673922273" style="color:inherit;font-weight:600;text-decoration:underline">667-392-2273</a></div>
       <p>Linea directa 24/7 para emergencias. Confirma tu ubicacion y llegamos lo antes posible.</p>
       <a href="tel:+526673922273" class="btn btn-tel">Llamar Ahora</a>
     </div>
@@ -214,4 +227,5 @@ document.querySelectorAll('.faq-q').forEach(btn => {
   });
 })();
 </script>
+<script src="/medicion.js?v=20261004" defer></script>
 </body></html>

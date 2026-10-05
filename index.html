@@ -4,14 +4,26 @@
 <!-- Google Tag Manager -->
 <script>
 window.dataLayer = window.dataLayer || [];
-if (window.requestIdleCallback) {
-  requestIdleCallback(() => {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PBNKL64L';
-    document.head.appendChild(script);
-  });
-}
+window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+(function() {
+  // GTM diferido (protege el LCP): carga en la primera interacción o 1.5 s después del load.
+  // El push de 'gtm.js' de arriba es OBLIGATORIO: sin él GA4 no registra la visita.
+  // Sin requestIdleCallback: Safari/iPhone no lo tiene.
+  var loaded = false;
+  var events = ['scroll', 'click', 'touchstart', 'keydown'];
+  var loadGTM = function() {
+    if (loaded) return;
+    loaded = true;
+    events.forEach(function(e) { window.removeEventListener(e, loadGTM, true); });
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PBNKL64L';
+    document.head.appendChild(s);
+  };
+  events.forEach(function(e) { window.addEventListener(e, loadGTM, {passive: true, capture: true}); });
+  var later = function() { setTimeout(loadGTM, 1500); };
+  if (document.readyState === 'complete') later(); else window.addEventListener('load', later);
+})();
 </script>
 <!-- End Google Tag Manager -->
 
@@ -130,115 +142,7 @@ p{font-size:1rem;line-height:1.7;color:var(--text-light);margin-bottom:1rem}
 .below-fold{content-visibility:auto;contain-intrinsic-size:auto 600px}</style>
 <link rel="stylesheet" href="/styles.css" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="/styles.css"></noscript>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://llanteramovilculiacanpro.mx/#website",
-      "name": "Llantera Movil Culiacan Pro",
-      "url": "https://llanteramovilculiacanpro.mx/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://llanteramovilculiacanpro.mx/blog/?s={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://llanteramovilculiacanpro.mx/"}]
-    },
-    {
-      "@type": ["AutoRepair", "AutomotiveBusiness"],
-      "@id": "https://llanteramovilculiacanpro.mx/#business",
-      "name": "Llantera Movil Culiacan Pro",
-      "url": "https://llanteramovilculiacanpro.mx/",
-      "telephone": "+52 667-392-2273",
-      "knowsLanguage": "es-MX",
-      "image": "https://llanteramovilculiacanpro.mx/assets/images/llantero-movil-hero-1200w.webp",
-      "logo": {"@type": "ImageObject", "url": "https://llanteramovilculiacanpro.mx/assets/images/logo-llantero-512.webp", "width": 512, "height": 195},
-      "contactPoint": {"@type": "ContactPoint", "telephone": "+526673922273", "contactType": "customer service", "availableLanguage": "Spanish", "areaServed": "MX"},
-      "sameAs": [],
-      "address": {"@type": "PostalAddress", "addressLocality": "Culiacan", "addressRegion": "Sinaloa", "addressCountry": "MX"},
-      "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59"},
-      "areaServed": [
-        {"@type": "City", "name": "Culiacan", "addressCountry": "MX"},
-        {"@type": "Place", "name": "Las Quintas, Culiacan"},
-        {"@type": "Place", "name": "Tres Rios, Culiacan"},
-        {"@type": "Place", "name": "Centro, Culiacan"},
-        {"@type": "Place", "name": "Chapultepec, Culiacan"},
-        {"@type": "Place", "name": "Montebello, Culiacan"},
-        {"@type": "Place", "name": "Guadalupe, Culiacan"},
-        {"@type": "Place", "name": "Zona Dorada, Culiacan"},
-        {"@type": "Place", "name": "Campestre, Culiacan"},
-        {"@type": "Place", "name": "Humaya, Culiacan"},
-        {"@type": "Place", "name": "Bachigualato, Culiacan"},
-        {"@type": "Place", "name": "Villa Universidad, Culiacan"},
-        {"@type": "Place", "name": "La Campiña, Culiacan"},
-        {"@type": "Place", "name": "Barrancos, Culiacan"},
-        {"@type": "Place", "name": "Santa Fe, Culiacan"},
-        {"@type": "Place", "name": "Las Palmas, Culiacan"},
-        {"@type": "Place", "name": "Nuevo Culiacan, Culiacan"},
-        {"@type": "Place", "name": "Isla del Oeste, Culiacan"},
-        {"@type": "Place", "name": "Country Tres Rios, Culiacan"},
-        {"@type": "Place", "name": "Lomas de San Miguel, Culiacan"},
-        {"@type": "Place", "name": "Las Quintas Residencial, Culiacan"},
-        {"@type": "Place", "name": "Colinas de San Miguel, Culiacan"},
-        {"@type": "Place", "name": "Desarrollo Urbano Tres Rios, Culiacan"},
-        {"@type": "Place", "name": "El Barrio, Culiacan"},
-        {"@type": "Place", "name": "Tierra Blanca, Culiacan"},
-        {"@type": "Place", "name": "Valle Alto, Culiacan"},
-        {"@type": "Place", "name": "Infonavit Barrancos, Culiacan"},
-        {"@type": "Place", "name": "La Lima, Culiacan"},
-        {"@type": "Place", "name": "El Palmito, Culiacan"},
-        {"@type": "Place", "name": "Vallado Nuevo, Culiacan"},
-        {"@type": "Place", "name": "Las Arenitas, Culiacan"}
-      ],
-      "geo": {"@type": "GeoCoordinates", "latitude": "24.7903", "longitude": "-107.3878"},
-      "priceRange": "$$",
-      "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "Bank Transfer"],
-      "currenciesAccepted": "MXN",
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "215", "bestRating": "5", "worstRating": "1"},
-      "review": [
-        {"@type": "Review", "author": {"@type": "Person", "name": "Carlos M."}, "datePublished": "2025-10-15", "reviewBody": "Se me poncho la llanta en plena carretera y llegaron en 25 minutos. Cambio rapido y precio justo.", "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}, "publisher": {"@type": "Organization", "name": "Google"}},
-        {"@type": "Review", "author": {"@type": "Person", "name": "Ana R."}, "datePublished": "2025-11-02", "reviewBody": "Excelente servicio a domicilio. Repararon la ponchadura de mi camioneta sin moverla. Precio justo.", "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}, "publisher": {"@type": "Organization", "name": "Google"}},
-        {"@type": "Review", "author": {"@type": "Person", "name": "Jorge L."}, "datePublished": "2025-09-28", "reviewBody": "Los llame de madrugada y llegaron rapido. Servicio 24 horas de verdad.", "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}, "publisher": {"@type": "Organization", "name": "Google"}}
-      ]
-    },
-    {
-      "@type": "Service", "serviceType": "Cambio de Llanta a Domicilio", "name": "Cambio de Llanta a Domicilio en Culiacan",
-      "provider": {"@id": "https://llanteramovilculiacanpro.mx/#business"},
-      "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "200", "maxPrice": "500", "priceCurrency": "MXN"}}
-    },
-    {
-      "@type": "Service", "serviceType": "Reparacion de Ponchadura", "name": "Reparacion de Ponchadura a Domicilio en Culiacan",
-      "provider": {"@id": "https://llanteramovilculiacanpro.mx/#business"},
-      "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "100", "maxPrice": "300", "priceCurrency": "MXN"}}
-    },
-    {
-      "@type": "Service", "serviceType": "Vulcanizadora Movil", "name": "Vulcanizadora Movil en Culiacan",
-      "provider": {"@id": "https://llanteramovilculiacanpro.mx/#business"},
-      "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "150", "maxPrice": "800", "priceCurrency": "MXN"}}
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {"@type": "Question", "name": "Cuanto tarda la llantera movil en llegar en Culiacan?", "acceptedAnswer": {"@type": "Answer", "text": "Nuestro tiempo promedio de llegada es de 30-60 minutos en toda la zona urbana de Culiacan. Cubrimos Las Quintas, Tres Rios, Chapultepec, Centro y mas."}},
-        {"@type": "Question", "name": "Cuanto cuesta reparar una ponchadura a domicilio en Culiacan?", "acceptedAnswer": {"@type": "Answer", "text": "Desde $100 a $300 MXN dependiendo del tipo de llanta. Incluye parche interno profesional con garantia. Desplazamiento incluido en zona urbana."}},
-        {"@type": "Question", "name": "Atienden de noche y fines de semana?", "acceptedAnswer": {"@type": "Answer", "text": "Si, servicio disponible 24/7, incluyendo madrugadas, domingos y dias festivos en toda Culiacan."}},
-        {"@type": "Question", "name": "Que servicios ofrece la llantera movil?", "acceptedAnswer": {"@type": "Answer", "text": "Cambio de llanta, reparacion de ponchadura, vulcanizado, inflado, alineacion y balanceo, venta de llantas y emergencias en carretera. Todo a domicilio."}},
-        {"@type": "Question", "name": "Cuanto cobra un llantero a domicilio en Culiacan?", "acceptedAnswer": {"@type": "Answer", "text": "Ponchadura desde $100, cambio de llanta desde $200, vulcanizado desde $150. Desplazamiento incluido en zona urbana. Cotiza gratis por WhatsApp."}},
-        {"@type": "Question", "name": "Que zonas de Culiacan cubren?", "acceptedAnswer": {"@type": "Answer", "text": "Toda la zona urbana: Las Quintas, Tres Rios, Chapultepec, Centro, Guadalupe, Humaya, Bachigualato y todas las colonias principales. Tambien carretera en area metropolitana."}},
-        {"@type": "Question", "name": "Ofrecen garantia en las reparaciones?", "acceptedAnswer": {"@type": "Answer", "text": "Si, parches internos con garantia de 6 meses. En llantas nuevas aplica garantia del fabricante. Materiales de calidad profesional."}}
-      ]
-    }
-  ]
-}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://llanteramovilculiacanpro.mx/#website", "name": "Llantera Movil Culiacan Pro", "url": "https://llanteramovilculiacanpro.mx/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://llanteramovilculiacanpro.mx/blog/?s={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://llanteramovilculiacanpro.mx/"}]}, {"@type": ["AutoRepair", "AutomotiveBusiness"], "@id": "https://llanteramovilculiacanpro.mx/#business", "name": "Llantera Movil Culiacan Pro", "url": "https://llanteramovilculiacanpro.mx/", "telephone": "+52 667-392-2273", "knowsLanguage": "es-MX", "image": "https://llanteramovilculiacanpro.mx/assets/images/llantero-movil-hero-1200w.webp", "logo": {"@type": "ImageObject", "url": "https://llanteramovilculiacanpro.mx/assets/images/logo-llantero-512.webp", "width": 512, "height": 195}, "contactPoint": {"@type": "ContactPoint", "telephone": "+526673922273", "contactType": "customer service", "availableLanguage": "Spanish", "areaServed": "MX"}, "sameAs": [], "address": {"@type": "PostalAddress", "addressLocality": "Culiacan", "addressRegion": "Sinaloa", "addressCountry": "MX"}, "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "00:00", "closes": "23:59"}, "areaServed": [{"@type": "City", "name": "Culiacan", "addressCountry": "MX"}, {"@type": "Place", "name": "Las Quintas, Culiacan"}, {"@type": "Place", "name": "Tres Rios, Culiacan"}, {"@type": "Place", "name": "Centro, Culiacan"}, {"@type": "Place", "name": "Chapultepec, Culiacan"}, {"@type": "Place", "name": "Montebello, Culiacan"}, {"@type": "Place", "name": "Guadalupe, Culiacan"}, {"@type": "Place", "name": "Zona Dorada, Culiacan"}, {"@type": "Place", "name": "Campestre, Culiacan"}, {"@type": "Place", "name": "Humaya, Culiacan"}, {"@type": "Place", "name": "Bachigualato, Culiacan"}, {"@type": "Place", "name": "Villa Universidad, Culiacan"}, {"@type": "Place", "name": "La Campiña, Culiacan"}, {"@type": "Place", "name": "Barrancos, Culiacan"}, {"@type": "Place", "name": "Santa Fe, Culiacan"}, {"@type": "Place", "name": "Las Palmas, Culiacan"}, {"@type": "Place", "name": "Nuevo Culiacan, Culiacan"}, {"@type": "Place", "name": "Isla del Oeste, Culiacan"}, {"@type": "Place", "name": "Country Tres Rios, Culiacan"}, {"@type": "Place", "name": "Lomas de San Miguel, Culiacan"}, {"@type": "Place", "name": "Las Quintas Residencial, Culiacan"}, {"@type": "Place", "name": "Colinas de San Miguel, Culiacan"}, {"@type": "Place", "name": "Desarrollo Urbano Tres Rios, Culiacan"}, {"@type": "Place", "name": "El Barrio, Culiacan"}, {"@type": "Place", "name": "Tierra Blanca, Culiacan"}, {"@type": "Place", "name": "Valle Alto, Culiacan"}, {"@type": "Place", "name": "Infonavit Barrancos, Culiacan"}, {"@type": "Place", "name": "La Lima, Culiacan"}, {"@type": "Place", "name": "El Palmito, Culiacan"}, {"@type": "Place", "name": "Vallado Nuevo, Culiacan"}, {"@type": "Place", "name": "Las Arenitas, Culiacan"}], "geo": {"@type": "GeoCoordinates", "latitude": "24.7903", "longitude": "-107.3878"}, "priceRange": "$$", "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "Bank Transfer"], "currenciesAccepted": "MXN"}, {"@type": "Service", "serviceType": "Cambio de Llanta a Domicilio", "name": "Cambio de Llanta a Domicilio en Culiacan", "provider": {"@id": "https://llanteramovilculiacanpro.mx/#business"}, "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "200", "maxPrice": "500", "priceCurrency": "MXN"}}}, {"@type": "Service", "serviceType": "Reparacion de Ponchadura", "name": "Reparacion de Ponchadura a Domicilio en Culiacan", "provider": {"@id": "https://llanteramovilculiacanpro.mx/#business"}, "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "100", "maxPrice": "300", "priceCurrency": "MXN"}}}, {"@type": "Service", "serviceType": "Vulcanizadora Movil", "name": "Vulcanizadora Movil en Culiacan", "provider": {"@id": "https://llanteramovilculiacanpro.mx/#business"}, "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "150", "maxPrice": "800", "priceCurrency": "MXN"}}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Cuanto tarda la llantera movil en llegar en Culiacan?", "acceptedAnswer": {"@type": "Answer", "text": "Nuestro tiempo promedio de llegada es de 30-60 minutos en toda la zona urbana de Culiacan. Cubrimos Las Quintas, Tres Rios, Chapultepec, Centro y mas."}}, {"@type": "Question", "name": "Cuanto cuesta reparar una ponchadura a domicilio en Culiacan?", "acceptedAnswer": {"@type": "Answer", "text": "Desde $100 a $300 MXN dependiendo del tipo de llanta. Incluye parche interno profesional con garantia. Desplazamiento incluido en zona urbana."}}, {"@type": "Question", "name": "Atienden de noche y fines de semana?", "acceptedAnswer": {"@type": "Answer", "text": "Si, servicio disponible 24/7, incluyendo madrugadas, domingos y dias festivos en toda Culiacan."}}, {"@type": "Question", "name": "Que servicios ofrece la llantera movil?", "acceptedAnswer": {"@type": "Answer", "text": "Cambio de llanta, reparacion de ponchadura, vulcanizado, inflado, alineacion y balanceo, venta de llantas y emergencias en carretera. Todo a domicilio."}}, {"@type": "Question", "name": "Cuanto cobra un llantero a domicilio en Culiacan?", "acceptedAnswer": {"@type": "Answer", "text": "Ponchadura desde $100, cambio de llanta desde $200, vulcanizado desde $150. Desplazamiento incluido en zona urbana. Cotiza gratis por WhatsApp."}}, {"@type": "Question", "name": "Que zonas de Culiacan cubren?", "acceptedAnswer": {"@type": "Answer", "text": "Toda la zona urbana: Las Quintas, Tres Rios, Chapultepec, Centro, Guadalupe, Humaya, Bachigualato y todas las colonias principales. Tambien carretera en area metropolitana."}}, {"@type": "Question", "name": "Ofrecen garantia en las reparaciones?", "acceptedAnswer": {"@type": "Answer", "text": "Si, parches internos con garantia de 6 meses. En llantas nuevas aplica garantia del fabricante. Materiales de calidad profesional."}}]}]}</script>
 </head>
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -267,13 +171,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="hero-image"><picture><source type="image/avif" srcset="/assets/images/llantero-movil-hero-500w.avif 500w, /assets/images/llantero-movil-hero-800w.avif 800w, /assets/images/llantero-movil-hero-1200w.avif 1200w" sizes="100vw"><source type="image/webp" srcset="/assets/images/llantero-movil-hero-500w.webp 500w, /assets/images/llantero-movil-hero-800w.webp 800w, /assets/images/llantero-movil-hero-1200w.webp 1200w" sizes="100vw"><img src="/assets/images/llantero-movil-hero-1200w.webp" srcset="/assets/images/llantero-movil-hero-500w.webp 500w, /assets/images/llantero-movil-hero-800w.webp 800w, /assets/images/llantero-movil-hero-1200w.webp 1200w" sizes="100vw" alt="Llantera movil profesional en Culiacan atendiendo emergencia de llanta ponchada" width="1200" height="800" fetchpriority="high" decoding="async"></picture></div>
   <div class="container"><div class="hero-content">
     <h1 class="fade-in">Llantero Movil a Domicilio en Culiacan<span class="hero-h1-extended"> | Servicio 24/7</span></h1>
-    <div class="hero-rating fade-in">
-      <svg class="google-logo" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
-      <span class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-      <span class="rating-score">4.9/5</span>
-      <span class="rating-divider">&middot;</span>
-      <span class="rating-count">215 reseñas</span>
-    </div>
     <p class="hero-subtitle fade-in">Servicio de llantera movil profesional a domicilio en Culiacan. Reparamos ponchaduras, cambiamos llantas y te sacamos de cualquier apuro. Sin grua, sin esperas, llegamos a ti.</p>
     <div class="hero-features fade-in">
       <div class="feature-item"><svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Llegamos en 30-60 min</span></div>
@@ -291,9 +188,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p>Servicio de llantera movil profesional a domicilio en Culiacan. Reparamos ponchaduras, cambiamos llantas y te sacamos de cualquier apuro. Sin grua, sin esperas, llegamos a ti.</p>
 </div></div>
 <section class="stats-bar"><div class="container"><div class="stats-grid">
-  <div class="stat-item"><span class="stat-number">1,200+</span><span class="stat-label">Servicios realizados</span></div>
+  <div class="stat-item"><span class="stat-number">30-60</span><span class="stat-label">Min llegada</span></div>
   <div class="stat-item"><span class="stat-number">640+</span><span class="stat-label">Colonias cubiertas</span></div>
-  <div class="stat-item"><span class="stat-number">4.9/5</span><span class="stat-label">Calificación Google</span></div>
+  <div class="stat-item"><span class="stat-number">Sin costo</span><span class="stat-label">Cotización</span></div>
   <div class="stat-item"><span class="stat-number">24/7</span><span class="stat-label">Disponibilidad</span></div>
 </div></div></section>
 
@@ -346,7 +243,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="zones-content">
     <p><a href="/servicios/llantero-colonias-culiacan/las-quintas/">Las Quintas</a>, <a href="/servicios/llantero-colonias-culiacan/tres-rios/">Tres Rios</a>, <a href="/servicios/llantero-colonias-culiacan/chapultepec/">Chapultepec</a>, <a href="/servicios/llantero-colonias-culiacan/la-campina/">La Campiña</a>, <a href="/servicios/llantero-colonias-culiacan/guadalupe/">Guadalupe</a>, <a href="/servicios/llantero-colonias-culiacan/barrancos/">Barrancos</a>, <a href="/servicios/llantero-colonias-culiacan/montebello/">Montebello</a>, <a href="/servicios/llantero-colonias-culiacan/zona-dorada/">Zona Dorada</a>, <a href="/servicios/llantero-colonias-culiacan/campestre/">Campestre</a>, <a href="/servicios/llantero-colonias-culiacan/santa-fe/">Santa Fe</a>, <a href="/servicios/llantero-colonias-culiacan/centro/">Centro</a>, <a href="/servicios/llantero-colonias-culiacan/villa-universidad/">Villa Universidad</a>, <a href="/servicios/llantero-colonias-culiacan/humaya/">Humaya</a>, <a href="/servicios/llantero-colonias-culiacan/bachigualato/">Bachigualato</a> y mas.</p>
     <p><a href="/servicios/llantero-colonias-culiacan/" style="color:#1e3a8a;font-weight:600">Ver las 640+ colonias donde damos servicio &rarr;</a></p>
-    <p class="zones-question">Tu colonia no aparece? <a href="https://wa.me/526673922273" target="_blank" rel="noopener noreferrer" class="whatsapp-link">Escribenos y confirmamos.</a></p>
+    <p class="zones-question">Tu colonia no aparece? <a href="https://wa.me/526673922273?text=Hola%2C%20necesito%20un%20llantero%20movil%20urgente" target="_blank" rel="noopener noreferrer" class="whatsapp-link">Escribenos y confirmamos.</a></p>
   </div>
 </div></section>
 
@@ -392,27 +289,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="sobre-nosotros" class="section below-fold section-alt"><div class="container">
   <h2>Sobre Nosotros</h2>
   <div class="about-content">
-    <p>Llevamos mas de 5 anos atendiendo emergencias con llantas en Culiacan. Con 1,200+ servicios realizados y 215 reseñas en Google (4.9/5 estrellas), nuestro equipo cubre mas de 640 colonias de la zona urbana las 24 horas, los 365 dias del ano.</p>
+    <p>Llevamos mas de 5 anos atendiendo emergencias con llantas en Culiacan. Nuestro equipo cubre mas de 640 colonias de la zona urbana las 24 horas, los 365 dias del ano.</p>
     <div class="features">
-      <div class="feature"><h3>1,200+ Servicios</h3><p>Ponchaduras, cambios y vulcanizado en toda Culiacan</p></div>
-      <div class="feature"><h3>4.9/5 en Google</h3><p>215 reseñas verificadas de clientes reales</p></div>
+      <div class="feature"><h3>24/7</h3><p>Ponchaduras, cambios y vulcanizado a cualquier hora en toda Culiacan</p></div>
+      <div class="feature"><h3>30-60 min</h3><p>Tiempo de llegada a domicilio dentro de Culiacan</p></div>
       <div class="feature"><h3>640+ Colonias</h3><p>Cobertura en toda la zona urbana y carreteras</p></div>
     </div>
   </div>
 </div></section>
 
-<section class="testimonials"><div class="container">
-  <h2>Lo que dicen nuestros clientes</h2>
-  <p class="testimonials-subtitle">215 reseñas en Google con <strong>4.9/5 estrellas</strong></p>
-  <div class="testimonial-grid">
-    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Se me poncho en plena carretera y llegaron en 25 minutos. Cambio rapido y precio justo."</p><cite>-- Carlos M., Tres Rios</cite><small class="testimonial-source">Google</small></div>
-    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Repararon la ponchadura de mi camioneta sin moverla. Precio justo y trabajo rapido."</p><cite>-- Ana R., Las Quintas</cite><small class="testimonial-source">Google</small></div>
-    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Los llame de madrugada y llegaron rapido. Servicio 24 horas de verdad."</p><cite>-- Jorge L., Chapultepec</cite><small class="testimonial-source">Google</small></div>
-    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Me vendieron llantas nuevas a buen precio e instalaron en mi casa. Gran servicio."</p><cite>-- Patricia S., Guadalupe</cite><small class="testimonial-source">Google</small></div>
-    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Rapidos, profesionales y honestos. Repararon en 15 minutos al precio cotizado."</p><cite>-- Luis F., Centro</cite><small class="testimonial-source">Google</small></div>
-    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Dos llantas ponchadas en el trabajo. Llegaron rapido y precio accesible."</p><cite>-- Maria G., Zona Dorada</cite><small class="testimonial-source">Google</small></div>
-  </div>
-</div></section>
+
 
 
 <section id="noticias" class="section below-fold"><div class="container">
@@ -473,17 +359,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="contacto" class="section below-fold"><div class="container">
   <h2>Necesitas una llantera movil hoy?</h2>
   <div class="final-cta">
-    <p class="cta-text">Escribenos por WhatsApp al 667-392-2273 o llamanos.</p>
+    <p class="cta-text">Escribenos por WhatsApp al <a href="https://wa.me/526673922273?text=Hola%2C%20necesito%20un%20llantero%20movil%20urgente" target="_blank" rel="noopener noreferrer" style="color:inherit;font-weight:600;text-decoration:underline">667-392-2273</a> o llamanos.</p>
     <p class="cta-subtitle">Atencion inmediata en toda Culiacan.</p>
     <div class="cta-buttons">
-      <a href="https://wa.me/526673922273" target="_blank" rel="noopener noreferrer" class="btn-primary btn-whatsapp">WhatsApp: 667-392-2273</a>
+      <a href="https://wa.me/526673922273?text=Hola%2C%20necesito%20un%20llantero%20movil%20urgente" target="_blank" rel="noopener noreferrer" class="btn-primary btn-whatsapp">WhatsApp: 667-392-2273</a>
       <a href="tel:+526673922273" class="btn-secondary">Llamar: 667-392-2273</a>
     </div>
   </div>
   <div class="contact-content"><div class="contact-info">
     <h3>Informacion de Contacto</h3>
-    <p><strong>Telefono:</strong> 667-392-2273</p>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/526673922273" target="_blank" rel="noopener noreferrer" class="whatsapp-link">+52 667-392-2273</a></p>
+    <p><strong>Telefono:</strong> <a href="tel:+526673922273" style="color:inherit;font-weight:600;text-decoration:underline">667-392-2273</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/526673922273?text=Hola%2C%20necesito%20un%20llantero%20movil%20urgente" target="_blank" rel="noopener noreferrer" class="whatsapp-link">+52 667-392-2273</a></p>
     <p><strong>Horario:</strong> 24/7, 365 dias</p>
     <p><strong>Cobertura:</strong> Toda la zona urbana de Culiacan, Sinaloa</p>
   </div>
@@ -549,6 +435,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div></div>
 
-<script src="/main.js" defer></script>
+<script src="/main.js?v=20261004" defer></script>
+<script src="/medicion.js?v=20261004" defer></script>
 </body>
 </html>

@@ -38,7 +38,7 @@ def generate_page(slug, name):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Llantera M&oacute;vil en {name}, Culiac&aacute;n | Servicio a Domicilio 24/7</title>
-<meta name="description" content="Llantera m&oacute;vil profesional en {name}, Culiac&aacute;n. Servicio a domicilio 24/7. Llegada 20-30 min. Cotizaci&oacute;n gratis WhatsApp. 4.9 estrellas.">
+<meta name="description" content="Llantera m&oacute;vil profesional en {name}, Culiac&aacute;n. Servicio a domicilio 24/7. Llegada 30-60 min. Cotizaci&oacute;n gratis WhatsApp..">
 <meta name="keywords" content="llantero {name} culiacan, llantera movil {name}, ponchadura {name} culiacan, cambio de llanta {name}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="googlebot" content="index, follow">
@@ -53,12 +53,12 @@ def generate_page(slug, name):
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://llanteramovilculiacanpro.mx/servicios/llantero-colonias-culiacan/{slug}/">
 <meta property="og:title" content="Llantera M&oacute;vil en {name}, Culiac&aacute;n | Servicio a Domicilio 24/7">
-<meta property="og:description" content="Llantera m&oacute;vil profesional en {name}, Culiac&aacute;n. Servicio a domicilio 24/7. Llegada 20-30 min.">
+<meta property="og:description" content="Llantera m&oacute;vil profesional en {name}, Culiac&aacute;n. Servicio a domicilio 24/7. Llegada 30-60 min.">
 <meta property="og:locale" content="es_MX">
 <meta property="og:site_name" content="Llantero Movil Culiacan Pro">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Llantera M&oacute;vil en {name}, Culiac&aacute;n | Servicio 24/7">
-<meta name="twitter:description" content="Llantera m&oacute;vil en {name}. Llegada 20-30 min. Cotizaci&oacute;n gratis.">
+<meta name="twitter:description" content="Llantera m&oacute;vil en {name}. Llegada 30-60 min. Cotizaci&oacute;n gratis.">
 <link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">
 {{
@@ -75,8 +75,7 @@ def generate_page(slug, name):
       "address": {{ "@type": "PostalAddress", "addressLocality": "Culiac\u00e1n", "addressRegion": "Sinaloa", "addressCountry": "MX" }},
       "geo": {{ "@type": "GeoCoordinates", "latitude": "24.7903", "longitude": "-107.3878" }},
       "openingHoursSpecification": {{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" }},
-      "priceRange": "$$",
-      "aggregateRating": {{ "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "200", "bestRating": "5" }}
+      "priceRange": "$$"
     }},
     {{
       "@type": "BreadcrumbList",
@@ -120,15 +119,15 @@ def generate_page(slug, name):
   <h1>Llantera M&oacute;vil en {name} &ndash; Servicio a Domicilio 24/7</h1>
 
   <div class="service-hero-box">
-    <p class="service-tagline">Servicio de llantera m&oacute;vil profesional en {name}, Culiac&aacute;n. Cambio de llantas, reparaci&oacute;n de ponchaduras y vulcanizado a domicilio. Llegamos en 20-30 minutos.</p>
+    <p class="service-tagline">Servicio de llantera m&oacute;vil profesional en {name}, Culiac&aacute;n. Cambio de llantas, reparaci&oacute;n de ponchaduras y vulcanizado a domicilio. Llegamos en 30-60 minutos.</p>
     <a href="https://wa.me/526673922273?text={wa_text}" class="btn-primary" target="_blank" rel="noopener noreferrer">Solicitar Servicio en {name}</a>
   </div>
 
   <section class="content-section">
     <h2>&iquest;Por qu&eacute; elegirnos en {name}?</h2>
     <div class="benefits-grid">
-      <div class="benefit"><div class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="benefit-content"><h3>Llegada R&aacute;pida</h3><p>20-30 minutos en {name}. Conocemos las calles y llegamos r&aacute;pido.</p></div></div>
-      <div class="benefit"><div class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="benefit-content"><h3>Profesionales</h3><p>Equipo certificado con herramientas especializadas para todo tipo de llanta.</p></div></div>
+      <div class="benefit"><div class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="benefit-content"><h3>Llegada R&aacute;pida</h3><p>30-60 minutos en {name}. Conocemos las calles y llegamos r&aacute;pido.</p></div></div>
+      <div class="benefit"><div class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="benefit-content"><h3>Profesionales</h3><p>Equipo con herramientas especializadas para todo tipo de llanta.</p></div></div>
       <div class="benefit"><div class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><div class="benefit-content"><h3>Precios Justos</h3><p>Cotizaci&oacute;n por WhatsApp. Sin sorpresas ni cargos ocultos.</p></div></div>
       <div class="benefit"><div class="benefit-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><div class="benefit-content"><h3>Garant&iacute;a</h3><p>Garant&iacute;a en todos nuestros servicios de llantas.</p></div></div>
     </div>
@@ -150,17 +149,9 @@ def generate_page(slug, name):
     <h2>Cobertura en {name}</h2>
     <div class="pricing-content"><div class="pricing-box">
       <h3>Servicio a Domicilio en {name}</h3>
-      <p>Cubrimos toda la colonia {name} y alrededores. Llegada en 20-30 minutos. Cotizaci&oacute;n gratis por WhatsApp antes de cualquier trabajo.</p>
+      <p>Cubrimos toda la colonia {name} y alrededores. Llegada en 30-60 minutos. Cotizaci&oacute;n gratis por WhatsApp antes de cualquier trabajo.</p>
       <a href="https://wa.me/526673922273?text={wa_text}" class="btn-primary" target="_blank" rel="noopener noreferrer" style="margin-top:1rem">Pedir Cotizaci&oacute;n Gratis</a>
     </div></div>
-  </section>
-
-  <section class="content-section">
-    <h2>Lo que dicen en {name}</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Se ponch&oacute; mi llanta en {name} a las 11 de la noche y llegaron en 25 minutos. Excelente servicio, r&aacute;pido y a buen precio. 100% recomendados.&rdquo;</p><cite>&mdash; Carlos M., vecino de {name}</cite></div>
-      <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Les mand&eacute; WhatsApp y en menos de 30 minutos ya estaban en mi casa en {name}. Me cambiaron las 4 llantas a muy buen precio. Muy profesionales.&rdquo;</p><cite>&mdash; Ana R., vecina de {name}</cite></div>
-    </div>
   </section>
 
   <section class="cta-section">

@@ -223,15 +223,28 @@ p{margin-bottom:1.25rem}
 <!-- Google Tag Manager -->
 <script>
 window.dataLayer = window.dataLayer || [];
-if (window.requestIdleCallback) {
-  requestIdleCallback(() => {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PBNKL64L';
-    document.head.appendChild(script);
-  });
-}
+window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+(function() {
+  // GTM diferido (protege el LCP): carga en la primera interacción o 1.5 s después del load.
+  // El push de 'gtm.js' de arriba es OBLIGATORIO: sin él GA4 no registra la visita.
+  // Sin requestIdleCallback: Safari/iPhone no lo tiene.
+  var loaded = false;
+  var events = ['scroll', 'click', 'touchstart', 'keydown'];
+  var loadGTM = function() {
+    if (loaded) return;
+    loaded = true;
+    events.forEach(function(e) { window.removeEventListener(e, loadGTM, true); });
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PBNKL64L';
+    document.head.appendChild(s);
+  };
+  events.forEach(function(e) { window.addEventListener(e, loadGTM, {passive: true, capture: true}); });
+  var later = function() { setTimeout(loadGTM, 1500); };
+  if (document.readyState === 'complete') later(); else window.addEventListener('load', later);
+})();
 </script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
 
@@ -402,7 +415,7 @@ if (window.requestIdleCallback) {
             <a href="/contacto/">Contacto</a>
         </div>
         <p>&copy; 2026 Llantero Movil Culiacan Pro. Todos los derechos reservados. | <a href="/terminos/">Terminos</a></p>
-        <p>Telefono: <a href="tel:+526673922273" style="color:#94a3b8;">667-392-2273</a> | WhatsApp: <a href="https://wa.me/526673922273" target="_blank" style="color:#94a3b8;">52 667-392-2273</a></p>
+        <p>Telefono: <a href="tel:+526673922273" style="color:#94a3b8;">667-392-2273</a> | WhatsApp: <a href="https://wa.me/526673922273?text=Hola%2C%20necesito%20alineacion%20y%20balanceo" target="_blank" style="color:#94a3b8;">52 667-392-2273</a></p>
         <p style="font-size:0.85rem;margin-top:1rem;">Servicio de llantero movil profesional en Culiacan, Sinaloa, Mexico</p>
     </div>
 </footer>
@@ -412,7 +425,8 @@ if (window.requestIdleCallback) {
 <a href="tel:+526673922273" id="cta-llamar" class="floating-btn floating-call" aria-label="Llamar ahora"><svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg></a>
 
 <!-- Scripts -->
-<script src="/main.js" defer></script>
+<script src="/main.js?v=20261004" defer></script>
 
+<script src="/medicion.js?v=20261004" defer></script>
 </body>
 </html>

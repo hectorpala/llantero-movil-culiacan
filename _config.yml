@@ -1,0 +1,16 @@
+# GitHub Pages (Jekyll): estos archivos internos del repo NO se publican.
+# Agregado 4-oct-2026: CLAUDE.md, package.json, scripts .py y auditorías daban 200 en producción.
+include: []
+exclude:
+  - CLAUDE.md
+  - "*.md"
+  - package.json
+  - package-lock.json
+  - "*.py"
+  - faq-schemas.json
+  - scripts
+  - docs
+  - partials
+  - node_modules
+  - .github
+  - .claude

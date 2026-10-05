@@ -34,17 +34,31 @@ a{color:var(--brand)}
 </head>
 <body>
 <!-- Google Tag Manager (placeholder - replace GTM-PBNKL64L with your GTM ID) -->
+<!-- Google Tag Manager -->
 <script>
 window.dataLayer = window.dataLayer || [];
-if (window.requestIdleCallback) {
-  requestIdleCallback(function() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PBNKL64L';
-    document.head.appendChild(script);
-  });
-}
+window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+(function() {
+  // GTM diferido (protege el LCP): carga en la primera interacción o 1.5 s después del load.
+  // El push de 'gtm.js' de arriba es OBLIGATORIO: sin él GA4 no registra la visita.
+  // Sin requestIdleCallback: Safari/iPhone no lo tiene.
+  var loaded = false;
+  var events = ['scroll', 'click', 'touchstart', 'keydown'];
+  var loadGTM = function() {
+    if (loaded) return;
+    loaded = true;
+    events.forEach(function(e) { window.removeEventListener(e, loadGTM, true); });
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-PBNKL64L';
+    document.head.appendChild(s);
+  };
+  events.forEach(function(e) { window.addEventListener(e, loadGTM, {passive: true, capture: true}); });
+  var later = function() { setTimeout(loadGTM, 1500); };
+  if (document.readyState === 'complete') later(); else window.addEventListener('load', later);
+})();
 </script>
+<!-- End Google Tag Manager -->
 <!-- Google Tag Manager (noscript) -->
 <noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBNKL64L"
@@ -83,7 +97,7 @@ if (window.requestIdleCallback) {
 <p>No vendemos, comercializamos ni transferimos sus datos personales a terceros. Sus datos solo son accesibles por el personal autorizado de Llantero Movil Culiacan Pro para brindarle el servicio solicitado.</p>
 
 <h2>5. Derechos ARCO</h2>
-<p>Usted tiene derecho a Acceder, Rectificar, Cancelar u Oponerse al tratamiento de sus datos personales (derechos ARCO). Para ejercer estos derechos, contactenos por WhatsApp al <a href="https://wa.me/526673922273">+52 667-392-2273</a>.</p>
+<p>Usted tiene derecho a Acceder, Rectificar, Cancelar u Oponerse al tratamiento de sus datos personales (derechos ARCO). Para ejercer estos derechos, contactenos por WhatsApp al <a href="https://wa.me/526673922273?text=Hola,%20necesito%20una%20llantera%20m%C3%B3vil%20en%20Culiac%C3%A1n">+52 667-392-2273</a>.</p>
 
 <h2>6. Uso de WhatsApp</h2>
 <p>Al contactarnos por WhatsApp, usted acepta que usemos este medio para:</p>
@@ -98,7 +112,7 @@ if (window.requestIdleCallback) {
 <p>Nuestro sitio web utiliza cookies y tecnologias similares para mejorar su experiencia de navegacion y analizar el trafico del sitio. Puede configurar su navegador para rechazar cookies.</p>
 
 <h2>8. Eliminacion de Datos</h2>
-<p>Puede solicitar la eliminacion de sus datos personales en cualquier momento contactandonos por WhatsApp al <a href="https://wa.me/526673922273">+52 667-392-2273</a>. Procesaremos su solicitud en un plazo maximo de 15 dias habiles.</p>
+<p>Puede solicitar la eliminacion de sus datos personales en cualquier momento contactandonos por WhatsApp al <a href="https://wa.me/526673922273?text=Hola,%20necesito%20una%20llantera%20m%C3%B3vil%20en%20Culiac%C3%A1n">+52 667-392-2273</a>. Procesaremos su solicitud en un plazo maximo de 15 dias habiles.</p>
 
 <h2>9. Cambios a esta Politica</h2>
 <p>Nos reservamos el derecho de modificar esta politica de privacidad. Cualquier cambio sera publicado en esta pagina.</p>
@@ -106,10 +120,11 @@ if (window.requestIdleCallback) {
 <h2>10. Contacto</h2>
 <p>Para cualquier duda sobre esta politica de privacidad:</p>
 <ul>
-<li><strong>WhatsApp:</strong> <a href="https://wa.me/526673922273">+52 667-392-2273</a></li>
+<li><strong>WhatsApp:</strong> <a href="https://wa.me/526673922273?text=Hola,%20necesito%20una%20llantera%20m%C3%B3vil%20en%20Culiac%C3%A1n">+52 667-392-2273</a></li>
 <li><strong>Telefono:</strong> <a href="tel:+526673922273">667-392-2273</a></li>
 </ul>
 
 </div>
+<script src="/medicion.js?v=20261004" defer></script>
 </body>
 </html>
